@@ -3,32 +3,33 @@ AI finance trading
 
 
 ## Motivation 
-Algorithms are important in trading - relates to physics and the speed of light where in finance world time-scales where nanoseconds are important 
+Algorithms are important in trading.
+Relates to physics where in the finance world, time scales of nanoseconds/speed of light are important.
 
 
 ## Finance World
 Algorithmic trading 
-* focus on high frequency trading
-  1) market makers, set price
-  2) statistical arbitrage, guess price
+* Focus on high frequency trading
+  1) Market makers, set price
+  2) Statistical arbitrage, guess price
   
-* ex pair trading algorithms(from 2)
-  * time series of one stock
-  * convert to binary 
-  * look for correlations and diverges (delta)
-  * if diverges, makes trade and wins 
+* Ex Pair trading algorithms(from 2)
+  * Time series of one stock
+  * Convert to binary 
+  * Look for correlations and diverges (delta)
+  * If diverges, makes trade and wins 
   
-* ex moving large volume stocks 
-  * break up large stock ($200million)
-  * iceberging 
+* Ex Moving large volume stocks 
+  * Break up large stock ($200million)
+  * Iceberging 
   
-* ex predator-prey algorithms 
-  * ping and sharks
-  * reverse engineer stealth algorithms, attack and win
-  * put noise out there to confuse the other algorithms
+* Ex Predator-prey algorithms 
+  * Ping and sharks
+  * Reverse engineer stealth algorithms, attack and win
+  * Put noise out there to confuse the other algorithms
   
-* ultra-fast black swan
-  * when you have species that all look the same in the ecosystem - system crashes
+* Ultra-fast black swan
+  * When you have species that all look the same in the ecosystem - system crashes
 
 
 ## Technical
