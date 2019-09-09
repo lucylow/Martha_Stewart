@@ -11,25 +11,25 @@ Relates to physics where in the finance world, time scales of nanoseconds/speed 
 Algorithmic trading 
 * Focus on high frequency trading
   1) Market makers, set price
-  2) Statistical arbitrage, guess price
+  2) **Statistical arbitrage, guess price** (three examples below)
   
-* Ex Pair trading algorithms(from 2)
+* Ex.1 Pair trading algorithms
   * Time series of one stock
   * Convert to binary 
   * Look for correlations and diverges (delta)
   * If diverges, makes trade and wins 
   
-* Ex Moving large volume stocks 
+* Ex.2 Moving large volume stocks 
   * Break up large stock ($200million)
   * Iceberging 
   
-* Ex Predator-prey algorithms 
+* Ex.3 Predator-prey algorithms 
   * Ping and sharks
   * Reverse engineer stealth algorithms, attack and win
   * Put noise out there to confuse the other algorithms
   
 * Ultra-fast black swan
-  * When you have species that all look the same in the ecosystem - system crashes
+  * When you have species that all look the same in the ecosystem, the system crashes
 
 
 ## Technical
