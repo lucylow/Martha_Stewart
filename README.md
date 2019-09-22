@@ -35,6 +35,21 @@ Algorithmic trading
 
 
 ## Technical
+Python with Pandas DataFrame
+* Python
+  * Beautiful
+  * Statistical computing language
+* Pandas 
+  * Data analysis library 
+  * Created by Wes McKinney while at working at hedgefund AQR Capital Management
+* Financial Data
+  * Spreesheet like datasets with rows and columns
+  * Hard finance problems were more about dealing with data than math
+  * Quality data is far more important than fancy analysis
+* Other Python: numpy ,scipy, and matplotlib
+* Alternatives: Excel or R
+
+
 Udacity course "Machine Learning for Trading” from Georgia Tech (CS 7646)
 * Implementing ML based trading strateies from info gathering to market orders
 * Focus on how to apply probalistic ML approachhes to trading decisions
@@ -50,3 +65,5 @@ Udacity course "Machine Learning for Trading” from Georgia Tech (CS 7646)
 * Nassim Nichlas Taleb - AntiFragile Things That Gain From Disorder
 * Sean Gourley - High frequency trading and the new algorithmic ecosystem
 * Udacity course "Machine Learning for Trading” https://www.udacity.com/course/machine-learning-for-trading--ud501
+* Wes McKinney - Python for Data Analysis
+
