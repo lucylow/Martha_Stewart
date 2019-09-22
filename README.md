@@ -3,8 +3,8 @@ Artifical Intelligence Finance Trading
 
 
 ## Motivation 
-* Algorithms are important in trading.
-* Relates to physics where in the finance world, time scales of nanoseconds/speed of light are important.
+* Algorithms are important in trading
+* Relates to physics where in the finance world, time scales of nanoseconds/speed of light are important
 
 
 ## Finance World
