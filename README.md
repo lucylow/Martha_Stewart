@@ -35,7 +35,15 @@ Algorithmic trading
 
 
 ## Technical
-Udacity course "Machine Learning for Trading”
+Udacity course "Machine Learning for Trading” from Georgia Tech (CS 7646)
+* Implementing ML based trading strateies from info gathering to market orders
+* Focus on how to apply probalistic ML approachhes to trading decisions
+* Statistical approaches - linear regression, KNN, regression tree 
+* Data structures used for algorithmc trading 
+* Build a stock trading software system that uses current daily data
+* Build software to access live equity daat, assess it, and make trading decisions
+
+
 
 
 ## References 
