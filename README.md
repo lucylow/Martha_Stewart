@@ -4,7 +4,7 @@ Artifical Intelligence Finance Trading
 
 ## Motivation 
 * Algorithms are important in trading
-* Relates to physics where in the finance world, time scales of nanoseconds/speed of light are important
+* Relates to **physic background** where in the finance, **time scales of nanoseconds/speed of light are important**
 
 
 ## Finance World
@@ -15,22 +15,22 @@ Algorithmic trading
   2) **Statistical arbitrage, guess price** (three examples below)
 
 * Examples
-  * Ex.1 Pair Trading Algorithms
+  * **Ex.1 Pair Trading Algorithms**
     * Time series of one stock
     * Convert to binary 
     * Look for correlations and diverges (delta)
     * If diverges, makes trade and wins 
 
-  * Ex.2 Moving Large Volume Stocks 
+  * **Ex.2 Moving Large Volume Stocks** 
     * Break up large stock ($200million)
     * Iceberging 
 
-  * Ex.3 Predator-Prey Algorithms 
+  * **Ex.3 Predator-Prey Algorithms** 
     * Ping and sharks
     * Reverse engineer stealth algorithms, attack and win
     * Put noise out there to confuse the other algorithms
 
-* Ultra-Fast Black Swan
+* **Ultra-Fast Black Swan**
   * When you have species that all look the same in the ecosystem, the system crashes
 
 
@@ -38,15 +38,15 @@ Algorithmic trading
 
 **Python Data Science Toolkit**
 
-* Python Programming Language
+* **Python Programming Language**
   * Beautiful
   * Statistical computing language
   
-* Pandas Library
+* **Pandas Library**
   * Data analysis library 
   * Created by Wes McKinney working at hedgefund AQR Capital Management
   
-* Financial Data
+* **Financial Data**
   * Spreedsheet datasets with rows and columns
   * Finance problems more about manipulating data than math
   * Quality data is far more important than fancy analysis
