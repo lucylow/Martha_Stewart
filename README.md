@@ -57,12 +57,12 @@ Algorithmic trading
 
 **Udacity course "Machine Learning for Trading” from Georgia Tech (CS 7646)**
 
-* Implementing ML based trading strateies from info gathering to market orders
-* Focus on how to apply probalistic ML approachhes to trading decisions
-* Statistical approaches - linear regression, KNN, regression tree 
-* Data structures used for algorithmc trading 
-* Build a stock trading software system that uses current daily data
-* Build software to access live equity daat, assess it, and make trading decisions
+* Implementing **ML based trading strateies** from info gathering to market orders
+* Focus on how to apply probalistic approaches to trading decisions
+* Statistical approaches - **linear regression, KNN, and regression tree** 
+* **Data structures used for algorithmc trading** 
+* Build stock trading software system that uses current daily data
+* Build software to access **live equity data**, assess it, and **make trading decisions**
 
 
 
@@ -70,6 +70,6 @@ Algorithmic trading
 ## References 
 * Nassim Nichlas Taleb - AntiFragile Things That Gain From Disorder
 * Sean Gourley - High frequency trading and the new algorithmic ecosystem
-* Udacity course "Machine Learning for Trading” https://www.udacity.com/course/machine-learning-for-trading--ud501
+* Udacity course -  "Machine Learning for Trading” https://www.udacity.com/course/machine-learning-for-trading--ud501
 * Wes McKinney - Python for Data Analysis
 
