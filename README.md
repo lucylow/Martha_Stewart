@@ -1,5 +1,5 @@
 # Martha Stewart
-Artifical Intelligence Algorithmic Trading in Finance
+Algorithmic Trading in High Frequency Trading (HFT) Finance
 
 ---
 
