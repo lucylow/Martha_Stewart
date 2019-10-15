@@ -14,7 +14,7 @@ Artifical Intelligence Algorithmic Finance Trading
 Algorithmic trading 
 
 * Two types of "Finance"
-  1) Quantitaitve Finance (ATQs)
+  1) **Quantitaitve Finance (ATQs)**
     * determine prices, manage risk, and identify profitable opportunities
     * Create financial models (ex. interest rate models) and model validation
     * Futures, options, and numerical methods
@@ -24,7 +24,7 @@ Algorithmic trading
     * stocastic calculus*
     * Monte Carlo methods and finite difference methods
     * Signal processing, game theory, gambling Kelly criterion, market microstructure, econometrics, and time series analysis)
-  2) Trading / Sales FLoor 
+  2) **Trading / Sales FLoor** 
     * Buy side - uses Machine Learning
     * Option Volatility & Pricing 
     * pricing models
