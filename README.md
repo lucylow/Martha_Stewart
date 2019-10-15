@@ -1,5 +1,8 @@
 # Martha Stewart
 
+
+**Algorithmic Trading Software for High Frequency Trading (HFT)** (also known ask Automated Trading, Black-Box Trading, or Algo-Trading)
+
 <div>
   
   [![Status](https://img.shields.io/badge/status-work--in--progress-success.svg)]()
@@ -8,8 +11,6 @@
   [![License](https://img.shields.io/bower/l/bootstrap)]()
 
 </div>
-
-**Algorithmic Trading Software for High Frequency Trading (HFT)** (also known ask Automated Trading, Black-Box Trading, or Algo-Trading)
 ---
 
 ## Motivation 
