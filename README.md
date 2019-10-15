@@ -1,5 +1,5 @@
 # Martha Stewart
-Algorithmic Trading also known as Automated Trading, Black-Box Tarding, or Algo-Trading. Computer program follows algorithm of pre-defined set of instructions to place trades. Theoretically, will generate profits at a speed and frequency that is impossible for a human trader. The finance focus will be on High Frequency Trading (HFT). 
+**Algorithmic Trading** also known as Automated Trading, Black-Box Tarding, or Algo-Trading. Computer program follows algorithm of **pre-defined set of instructions to place trades**. Theoretically, **generates profits at a speed and frequency that is impossible for a human trader.** 
 
 ---
 
