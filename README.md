@@ -1,12 +1,14 @@
-# Martha_Stewart
+# Martha Stewart
 Artifical Intelligence Algorithmic Finance Trading 
 
+---
 
 ## Motivation 
 * Algorithms are important in trading
 * Relates to **physic background** where in the finance, **time scales of nanoseconds/speed of light are important**
 * Finance is the best real world application of math - [Black-Scholes Equation <3](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation)
 
+---
 
 ## Finance World
 Algorithmic trading 
@@ -29,12 +31,34 @@ Algorithmic trading
     * volatility considerations
     * basic and advanced trading strategies
     * portfolio risk management techniques (value at risk, financial stress test, or economic capital analysis)
-    
-* Focus on High Frequency Trading
+
+---
+
+## Numerical Methods 
+
+* **Finite difference method**  
+  * Solve partial differential equations
+* **Monte Carlo method** 
+  * Solve partial differential equations as well 
+  * Monte Carlo simulation common in risk management
+* **Ordinary least squares** 
+  * Estimate parameters in statistical regression analysis
+* **Spline interpolation** 
+  * Interpolate values from spot and forward interest rates curves, and volatility smiles
+* **Bisection, Newton, and Secant methods** 
+  * Find the roots, maxima and minima of functions 
+  * Ex. Internal rate of return
+
+
+---
+
+## Focus on High Frequency Trading
   1) Market makers, set price
   2) **Statistical arbitrage, guess price** (three examples below)
 
-* Examples
+---
+
+## Examples
   * **Ex.1 Pair Trading Algorithms**
     * Time series of one stock
     * Convert to binary 
@@ -53,14 +77,7 @@ Algorithmic trading
 * **Ultra-Fast Black Swan**
   * When you have species that all look the same in the ecosystem, the system crashes
 
-
-## Numerical Methods 
-
-* **Finite difference method**  used to solve partial differential equations;
-* **Monte Carlo method** used to solve partial differential equations, but Monte Carlo simulation is also common in risk management;
-* **Ordinary least squares** used to estimate parameters in statistical regression analysis;
-* **Spline interpolation** used to interpolate values from spot and forward interest rates curves, and volatility smiles;
-* **Bisection, Newton, and Secant methods** used to find the roots, maxima and minima of functions (e.g. internal rate of return.)
+---
 
 ## Technical
 
@@ -82,6 +99,7 @@ Algorithmic trading
 * Other Tools: Numpy, Scipy, and Matplotlib
 * Alternatives: Excel or R
 
+---
 
 **Udacity course "Machine Learning for Trading” from Georgia Tech (CS 7646)**
 
@@ -93,7 +111,7 @@ Algorithmic trading
 * Build software to access **live equity data**, assess it, and **make trading decisions**
 
 
-
+---
 
 ## References 
 * Nassim Nichlas Taleb - AntiFragile Things That Gain From Disorder
