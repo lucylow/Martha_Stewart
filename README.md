@@ -11,6 +11,18 @@
 * Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important**: [Ex. Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
 
 
+---
+
+## Benefits of Algorithmic Trading
+
+* Trades are executed at the best possible prices
+* Trade order placement is instant and accurate (there is a high chance of execution at the desired levels)
+* Trades are timed correctly and instantly to avoid significant price changes
+* Reduced transaction costs
+* Simultaneous automated checks on multiple market conditions
+* Reduced risk of manual errors when placing trades
+* Algo-trading can be backtested using available historical and real-time data to see if it is a viable trading strategy
+* Reduced possibility of mistakes by human traders based on emotional and psychological factors
 
 ---
 
