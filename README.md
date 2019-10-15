@@ -8,8 +8,12 @@
    * Computer program follows **algorithm of pre-defined set of instructions to place trades**
    * Generates profits at a speed and frequency that is impossible for a human trader
    * **Makes trading more systematic** by ruling out human emotions
-* Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important**: [Ex. Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
-
+* Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important**:
+  * In high frequency trading, one-hundredth of a microsecond is enough time for most HFT trade decisions and executions
+  * [Ex. Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
+* Build your own trading software allows full flexibility for Configurability and Customization
+  * a good free source to explore algorithmic trading is Quantopian
+  * Online platform for testing and developing algorithmic trading. Individuals can try and customize any existing algorithm or write a completely new one. The platform also offers built-in algorithmic trading software to be tested against market data.
 
 ---
 
@@ -24,6 +28,11 @@
 * Algo-trading can be backtested using available historical and real-time data to see if it is a viable trading strategy
 * Reduced possibility of mistakes by human traders based on emotional and psychological factors
 
+---
+
+## Bottlenecks for algorithmic HFT
+
+Declining profit potential, high operational costs, the prospect of stricter regulations and the fact that there is no room for error, as losses can quickly run in the millions.
 ---
 
 ## Finance World Algorithmic Trading 
@@ -104,6 +113,19 @@
 ## HFT Examples
 Strategies to use computers to make decisions electronically, before human traders are capable of processing the information. Capitalize on placing a large number of orders at rapid speeds across multiple markets and multiple decision parameters based on preprogrammed instructions. 
 
+Algorithms essentially work as middlemen between buyers and sellers, with HFT and Ultra HFT being a way for traders to capitalize on infinitesimal price discrepancies that might exist only for a minuscule period.
+
+HFT algorithms typically involve two-sided order placements (buy-low and sell-high) in an attempt to benefit from bid-ask spreads. HFT algorithms also try to “sense” any pending large-size orders by sending multiple small-sized orders and analyzing the patterns and time taken in trade execution. If they sense an opportunity, HFT algorithms then try to capitalize on large pending orders by adjusting prices to fill them and make profits.
+
+
+Also, Ultra HFT is a further specialized stream of HFT. By paying an additional exchange fee, trading firms get access to see pending orders a split-second before the rest of the market does.
+
+HFT is complex algorithmic trading in which large numbers of orders are executed within seconds.
+It adds liquidity to the markets and eliminates small bid-ask spreads.
+There are two primary criticisms of HFT. The first one is that it allows institutional players to gain an upper hand in trading because they are able to trade in large blocks through the use of algorithms. The second criticism against HFT is that the liquidity produced by this type of trading is momentary. It disappears within seconds, making it impossible for traders to take advantage of it.
+
+
+
   * **Ex.1 Pair Trading Algorithms**
     * Time series of one stock
     * Convert to binary 
@@ -148,6 +170,21 @@ Strategies to use computers to make decisions electronically, before human trade
 
 ## Technical Requirements for Algorithmic Trading
 
+* Acessing market data
+  * Bloomberg data terminal
+  * Technical and quantitative analysis tools for trading (like Bollinger bands, charts, etc.)
+ 
+* Programming languages
+  * Perl, C++, Java, Python are the common ones among the trader community
+* Historical and/or real-time data availability, to backtest their identified strategies
+* Automated access to brokerage/trading accounts usually through Direct Market Access
+  * 
+
+High-speed computers, which need regular and costly hardware upgrades;
+
+Real-time data feeds, which are required to avoid even a microsecond's delay that may impact profits; and
+
+
 Implementing the algorithm using a computer program is the final component of algorithmic trading, accompanied by backtesting (trying out the algorithm on historical periods of past stock-market performance to see if using it would have been profitable). The challenge is to transform the identified strategy into an integrated computerized process that has access to a trading account for placing orders. The following are the requirements for algorithmic trading:
 
  Computer-programming knowledge to program the required trading strategy, hired programmers, or pre-made trading software.
@@ -177,5 +214,7 @@ Implementing the algorithm using a computer program is the final component of al
 * Sean Gourley - High frequency trading and the new algorithmic ecosystem
 * Udacity course -  "Machine Learning for Trading” https://www.udacity.com/course/machine-learning-for-trading--ud501
 * Wes McKinney - Python for Data Analysis
+* HFT https://faculty.chicagobooth.edu/eric.budish/research/HFT-FrequentBatchAuctions.pdf
+* 
 * Books by Sheldon Natenberg or Lawrence G. McMillan
 
