@@ -30,11 +30,6 @@
 
 ---
 
-## Bottlenecks for algorithmic HFT
-
-Declining profit potential, high operational costs, the prospect of stricter regulations and the fact that there is no room for error, as losses can quickly run in the millions.
----
-
 ## Finance World Algorithmic Trading 
 
 1) **Quantitaitve Finance (ATQs)**
