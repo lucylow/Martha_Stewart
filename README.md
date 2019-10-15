@@ -201,6 +201,9 @@ Implementing the algorithm using a computer program is the final component of al
 * Build stock trading software system that uses current daily data
 * Build software to access **live equity data**, assess it, and **make trading decisions**
 
+* Optomizing portfios
+* Computing at Hedgefunds. So you want to become a Hedgefund manager?
+
 
 ---
 
@@ -210,6 +213,7 @@ Implementing the algorithm using a computer program is the final component of al
 * Udacity course -  "Machine Learning for Trading” https://www.udacity.com/course/machine-learning-for-trading--ud501
 * Wes McKinney - Python for Data Analysis
 * HFT https://faculty.chicagobooth.edu/eric.budish/research/HFT-FrequentBatchAuctions.pdf
-* 
+* What Hedge Funds Really Do by Romero and Balch
+* Python for Finance by Yves Hilpisch
 * Books by Sheldon Natenberg or Lawrence G. McMillan
 
