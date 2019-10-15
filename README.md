@@ -1,6 +1,18 @@
 # Martha Stewart
 **Algorithmic Trading Software for High Frequency Trading (HFT)** (also known ask Automated Trading, Black-Box Trading, or Algo-Trading)
 
+<div>
+  
+  [![Status](https://img.shields.io/badge/status-work--in--progress-success.svg)]()
+  [![GitHub Issues](https://img.shields.io/github/issues/lucylow/Martha_Stewart
+.svg)](https://github.com/lucylow/salty-wet-man/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lucylow/Martha_Stewart
+.svg)](https://github.com/lucylow/Martha_Stewart/pulls)
+  [![License](https://img.shields.io/bower/l/bootstrap)]()
+
+</div>
+
+
 ---
 
 ## Motivation 
