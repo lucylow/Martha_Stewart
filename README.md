@@ -17,8 +17,8 @@ Artifical Intelligence Algorithmic Trading in Finance
     * Signal processing, game theory, gambling Kelly criterion, market microstructure, econometrics, and time series analysis)
     * **Stocastic calculus**
       * Model systems that behave randomly
-      * Physics. Modeling Brownian Motion, diffusion processes of particles subject to random forces
-      * Finance. Asset prices assumed to follow stochastic differential equations.Ex. [Black-Scholes](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation) model, prices follow geometric Brownian motion
+      * Modeling Brownian Motion, diffusion processes of particles subject to random forces in physics
+      * Asset prices assumed to follow stochastic differential equations.Ex. [Black-Scholes](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation) model, prices follow geometric Brownian motion
 
 
 2) **Trading / Sales FLoor** 
@@ -33,7 +33,7 @@ Artifical Intelligence Algorithmic Trading in Finance
 
 ## Algorithmic Trading
 
-* Executing orders using **automated trading instructions**: 
+* **Executing orders using automated trading instructions**: 
    * Parameters so traders do not need to manually watch a stock and traders need to execute large orders in certain markets
       * Time, price, and volume
       * Send small slices of the order out to the market over time
@@ -72,24 +72,27 @@ Artifical Intelligence Algorithmic Trading in Finance
 ---
 
 ## Algorithmic Trading and  High Frequency Trading (HFT)
-Define High-frequency trading (HFT):
-   * Characterized by high turnover and high order-to-trade ratios.
-   * HFT strategies use computers to make  decisions electronically, before human traders are capable of processing the information
-   * Resulted in  dramatic change of finance market microstructure (the way liquidity is provided)
 
-Two Types of HFT:
+**Define High Frequency Trading (HFT)**
+   * High turnover and High order-to-trade ratios
+   * Resulted in dramatic change of finance market microstructure (the way liquidity is provided)
+
+**Two Types of HFT:**
   1) Market makers, set price
-  2) **Statistical arbitrage, guess price** (three examples below)
+  2) **Statistical arbitrage, guess price** 
+   * Three examples below
 
 
 ---
 
-## Examples
+## HFT Examples
+Strategies to use computers to make decisions electronically, before human traders are capable of processing the information
+
   * **Ex.1 Pair Trading Algorithms**
     * Time series of one stock
     * Convert to binary 
     * Look for correlations and diverges (delta)
-    * If diverges, makes trade and wins 
+    * If diverges, **makes trade and wins** 
 
   * **Ex.2 Moving Large Volume Stocks** 
     * Break up large stock ($200million)
@@ -97,7 +100,7 @@ Two Types of HFT:
 
   * **Ex.3 Predator-Prey Algorithms** 
     * Ping and sharks
-    * Reverse engineer stealth algorithms, attack and win
+    * Reverse engineer stealth algorithms, **attack and win**
     * Put noise out there to confuse the other algorithms
 
 * **Ultra-Fast Black Swan**
