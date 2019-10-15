@@ -1,5 +1,5 @@
 # Martha Stewart
-Artifical Intelligence Algorithmic Finance Trading 
+Artifical Intelligence Algorithmic Trading in Finance
 
 ---
 
@@ -29,6 +29,21 @@ Algorithmic trading
     * Basic and advanced trading strategies
     * Portfolio risk management techniques (Value at risk, Financial stress test, or Economic capital analysis)
 
+
+---
+
+## Algorithmic Trading
+
+* Executing orders using automated pre-programmed trading instructions 
+* Parameters/variables such as time, price, and volume to send small slices of the order (child orders) out to the market over time. 
+* They were developed so that traders do not need to constantly watch a stock and repeatedly send those slices out manually. 
+* Popular Algorithm Examples include Percentage of Volume, Pegged, VWAP, TWAP, Implementation shortfall, Target close. 
+
+* Traders need to execute large orders in markets that cannot support all of the size at once.
+
+
+
+* Audience: investment banks, pension funds, mutual funds, and hedge funds
 ---
 
 ## Numerical Methods 
@@ -49,9 +64,12 @@ Algorithmic trading
 
 ---
 
-## Focus on High Frequency Trading
+## Algorithmic Trading and  High Frequency Trading (HFT)
+High-frequency trading (HFT) characterized by high turnover and high order-to-trade ratios. HFT strategies use computers to make  decisions electronically, before human traders are capable of processing the information. Algorithmic trading and HFT resulted in a dramatic change of the market microstructure, particularly in the way liquidity is provided.
+
   1) Market makers, set price
   2) **Statistical arbitrage, guess price** (three examples below)
+
 
 ---
 
