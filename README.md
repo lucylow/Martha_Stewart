@@ -56,7 +56,7 @@
    * Hedge funds (Renaissance Technologies and Two Sigma)
 ---
 
-## Numerical Methods 
+## Basic Numerical Methods 
 
 * **Finite difference method**  
   * Solve partial differential equations
@@ -74,7 +74,7 @@
 
 ---
 
-## Algorithmic Trading and  High Frequency Trading (HFT)
+## Algorithmic Trading and High Frequency Trading (HFT)
 
 **Define High Frequency Trading (HFT)**
    * High turnover and High order-to-trade ratios
