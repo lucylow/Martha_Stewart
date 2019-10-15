@@ -5,8 +5,7 @@ Artifical Intelligence Algorithmic Finance Trading
 
 ## Motivation 
 * Algorithms are important in trading
-* Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important**
-* Finance is the best real world application of math - [Black-Scholes Equation <3](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation)
+* Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important** Black-Scholes Equation <3](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation)
 
 ---
 
@@ -14,18 +13,18 @@ Artifical Intelligence Algorithmic Finance Trading
 Algorithmic trading 
 
 1) **Quantitaitve Finance (ATQs)**
-    * determine prices, manage risk, and identify profitable opportunities
-    * Create financial models (ex. interest rate models) and model validation
+    * Determine prices, manage risk, and identify profitable opportunities
+    * Create financial models and model validation
     * Futures, options, and numerical methods
     * binomial model
     * delta-hedging 
-    * financial engineering
-    * stocastic calculus*
-    * Monte Carlo methods and finite difference methods
+    * **stocastic calculus**
+    * Monte Carlo methodS
+    * finite difference methods
     * Signal processing, game theory, gambling Kelly criterion, market microstructure, econometrics, and time series analysis)
 
 2) **Trading / Sales FLoor** 
-    * Buy side - uses Machine Learning
+    * Buy side uses Machine Learning
     * Option Volatility & Pricing 
     * pricing models
     * volatility considerations
