@@ -13,23 +13,18 @@ Artifical Intelligence Algorithmic Finance Trading
 Algorithmic trading 
 
 1) **Quantitaitve Finance (ATQs)**
-    * Determine prices, manage risk, and identify profitable opportunities
-    * Create financial models and model validation
-    * Futures, options, and numerical methods
-    * binomial model
-    * delta-hedging 
-    * **stocastic calculus**
-    * Monte Carlo methodS
-    * finite difference methods
+    * Determine prices, manage risk, and identify profitable opportunities by creating financial models and model validation
+    * Futures, options, numerical methods, Monte Carlo methods, finite difference methods, binomial model and delta-hedging 
     * Signal processing, game theory, gambling Kelly criterion, market microstructure, econometrics, and time series analysis)
+    * **Stocastic calculus**
+
 
 2) **Trading / Sales FLoor** 
-    * Buy side uses Machine Learning
-    * Option Volatility & Pricing 
-    * pricing models
-    * volatility considerations
-    * basic and advanced trading strategies
-    * portfolio risk management techniques (value at risk, financial stress test, or economic capital analysis)
+    * **Buy side uses Machine Learning**
+    * Option Volatility & Pricing Models
+    * Volatility Considerations
+    * Basic and advanced trading strategies
+    * Portfolio risk management techniques (Value at risk, Financial stress test, or Economic capital analysis)
 
 ---
 
