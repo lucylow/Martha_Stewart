@@ -5,8 +5,7 @@ Artifical Intelligence Algorithmic Finance Trading
 ## Motivation 
 * Algorithms are important in trading
 * Relates to **physic background** where in the finance, **time scales of nanoseconds/speed of light are important**
-* Finance is the best real world application of mathamatical equations
- * [Black-Scholes Equation <3](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation)
+* Finance is the best real world application of math - [Black-Scholes Equation <3](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation)
 
 
 ## Finance World
