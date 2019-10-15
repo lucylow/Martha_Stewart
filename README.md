@@ -9,8 +9,7 @@ Artifical Intelligence Algorithmic Trading in Finance
 
 ---
 
-## Finance World
-Algorithmic trading 
+## Finance World Algorithmic Trading 
 
 1) **Quantitaitve Finance (ATQs)**
     * Determine prices, manage risk, and identify profitable opportunities by creating financial models and model validation
