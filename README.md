@@ -17,9 +17,9 @@ Algorithmic trading
     * Futures, options, numerical methods, Monte Carlo methods, finite difference methods, binomial model and delta-hedging 
     * Signal processing, game theory, gambling Kelly criterion, market microstructure, econometrics, and time series analysis)
     * **Stocastic calculus**
-      * Model systems that behave randomly using Itô and Malliavin calculus
-      * In Physics, modeling Brownian Motion, diffusion processes of particles subject to random forces
-      * In Finance, Asset prices assumed to follow stochastic differential equations.Ex. [Black-Scholes](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation) model, prices follow geometric Brownian motion
+      * Model systems that behave randomly
+      * Physics. Modeling Brownian Motion, diffusion processes of particles subject to random forces
+      * Finance. Asset prices assumed to follow stochastic differential equations.Ex. [Black-Scholes](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation) model, prices follow geometric Brownian motion
 
 
 2) **Trading / Sales FLoor** 
@@ -34,16 +34,24 @@ Algorithmic trading
 
 ## Algorithmic Trading
 
-* Executing orders using automated pre-programmed trading instructions 
-* Parameters/variables such as time, price, and volume to send small slices of the order (child orders) out to the market over time. 
-* They were developed so that traders do not need to constantly watch a stock and repeatedly send those slices out manually. 
-* Popular Algorithm Examples include Percentage of Volume, Pegged, VWAP, TWAP, Implementation shortfall, Target close. 
+* Executing orders using **automated trading instructions**: 
+   * Parameters so traders do not need to manually watch a stock and traders need to execute large orders in certain markets
+      * Time, price, and volume
+      * Send small slices of the order out to the market over time
 
-* Traders need to execute large orders in markets that cannot support all of the size at once.
-
-
-
-* Audience: investment banks, pension funds, mutual funds, and hedge funds
+* **Popular Algorithm Examples**
+   * Percentage of Volume
+   * Pegged
+   * VWAP
+   * TWAP
+   * Implementation shortfall
+   * Target close
+   
+* **Target Audience**
+   * Investment banks
+   * Pension funds
+   * Mutual funds
+   * Hedge funds
 ---
 
 ## Numerical Methods 
@@ -65,8 +73,12 @@ Algorithmic trading
 ---
 
 ## Algorithmic Trading and  High Frequency Trading (HFT)
-High-frequency trading (HFT) characterized by high turnover and high order-to-trade ratios. HFT strategies use computers to make  decisions electronically, before human traders are capable of processing the information. Algorithmic trading and HFT resulted in a dramatic change of the market microstructure, particularly in the way liquidity is provided.
+Define High-frequency trading (HFT):
+   * Characterized by high turnover and high order-to-trade ratios.
+   * HFT strategies use computers to make  decisions electronically, before human traders are capable of processing the information
+   * Resulted in  dramatic change of finance market microstructure (the way liquidity is provided)
 
+Two Types of HFT:
   1) Market makers, set price
   2) **Statistical arbitrage, guess price** (three examples below)
 
