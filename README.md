@@ -98,7 +98,7 @@ Algorithmic trading
 
 ---
 
-**Udacity course "Machine Learning for Trading” from Georgia Tech (CS 7646)**
+## **Udacity course "Machine Learning for Trading” from Georgia Tech (CS 7646)**
 
 * Implementing **ML based trading strateies** from info gathering to market orders
 * Focus on how to apply probalistic approaches to trading decisions
