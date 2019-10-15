@@ -5,7 +5,8 @@ Artifical Intelligence Algorithmic Trading in Finance
 
 ## Motivation 
 * Algorithms are important in trading
-* Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important** 
+* Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important**. Ex. 
+[Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
 
 ---
 
