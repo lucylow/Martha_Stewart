@@ -49,7 +49,7 @@ Artifical Intelligence Algorithmic Trading in Finance
    * Investment banks
    * Pension funds
    * Mutual funds
-   * Hedge funds
+   * Hedge funds (Renaissance Technologies and Two Sigma)
 ---
 
 ## Numerical Methods 
