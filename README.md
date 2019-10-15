@@ -11,7 +11,8 @@
   [![License](https://img.shields.io/bower/l/bootstrap)]()
 
 </div>
----
+
+--------
 
 ## Motivation 
 * Algorithms are important in trading
