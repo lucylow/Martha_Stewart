@@ -7,6 +7,7 @@
 * Algorithms are important in trading
    * Computer program follows **algorithm of pre-defined set of instructions to place trades**
    * Generates profits at a speed and frequency that is impossible for a human trader
+   * **Makes trading more systematic** by ruling out human emotions
 * Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important**: [Ex. Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
 
 
