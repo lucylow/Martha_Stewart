@@ -24,7 +24,7 @@
       * Asset prices assumed to follow stochastic differential equations. Ex. [Black-Scholes Model](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation) where assett prices follow geometric Brownian motion
 
 
-2) **Trading / Sales FLoor** 
+2) **Trading / Sales Floor** 
     * Buy side uses machine learning
     * Option Volatility & Pricing Models
     * Volatility Considerations
