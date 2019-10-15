@@ -1,5 +1,5 @@
 # Martha Stewart
-**Algorithmic Trading** also known as Automated Trading, Black-Box Trading, or Algo-Trading.
+**Algorithmic Trading** also known as Automated Trading, Black-Box Trading, or Algo-Trading
 
 ---
 
