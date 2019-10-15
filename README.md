@@ -1,11 +1,13 @@
 # Martha Stewart
-Algorithmic Trading in High Frequency Trading (HFT) Finance
+Algorithmic Trading also known as Automated Trading, Black-Box Tarding, or Algo-Trading. Computer program follows algorithm of pre-defined set of instructions to place trades. Theoretically, will generate profits at a speed and frequency that is impossible for a human trader. The finance focus will be on High Frequency Trading (HFT). 
 
 ---
 
 ## Motivation 
 * Algorithms are important in trading
 * Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important**: [Ex. Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
+
+
 
 ---
 
@@ -85,7 +87,7 @@ Algorithmic Trading in High Frequency Trading (HFT) Finance
 ---
 
 ## HFT Examples
-Strategies to use computers to make decisions electronically, before human traders are capable of processing the information
+Strategies to use computers to make decisions electronically, before human traders are capable of processing the information. Capitalize on placing a large number of orders at rapid speeds across multiple markets and multiple decision parameters based on preprogrammed instructions. 
 
   * **Ex.1 Pair Trading Algorithms**
     * Time series of one stock
@@ -107,7 +109,7 @@ Strategies to use computers to make decisions electronically, before human trade
 
 ---
 
-## Technical
+## Technical Tools
 
 **Python Data Science Toolkit**
 
@@ -126,6 +128,20 @@ Strategies to use computers to make decisions electronically, before human trade
   
 * Other Tools: Numpy, Scipy, and Matplotlib
 * Alternatives: Excel or R
+
+---
+
+## Technical Requirements for Algorithmic Trading
+
+Implementing the algorithm using a computer program is the final component of algorithmic trading, accompanied by backtesting (trying out the algorithm on historical periods of past stock-market performance to see if using it would have been profitable). The challenge is to transform the identified strategy into an integrated computerized process that has access to a trading account for placing orders. The following are the requirements for algorithmic trading:
+
+ Computer-programming knowledge to program the required trading strategy, hired programmers, or pre-made trading software.
+ Network connectivity and access to trading platforms to place orders.
+ Access to market data feeds that will be monitored by the algorithm for opportunities to place orders.
+ The ability and infrastructure to backtest the system once it is built before it goes live on real markets.
+ Available historical data for backtesting depending on the complexity of rules implemented in the algorithm.
+
+
 
 ---
 
