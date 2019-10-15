@@ -4,10 +4,8 @@
 <div>
   
   [![Status](https://img.shields.io/badge/status-work--in--progress-success.svg)]()
-  [![GitHub Issues](https://img.shields.io/github/issues/lucylow/Martha_Stewart
-.svg)](https://github.com/lucylow/salty-wet-man/issues)
-  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lucylow/Martha_Stewart
-.svg)](https://github.com/lucylow/Martha_Stewart/pulls)
+  [![GitHub Issues](https://img.shields.io/github/issues/lucylow/Martha_Stewart.svg)](https://github.com/lucylow/salty-wet-man/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lucylow/Martha_Stewart.svg)](https://github.com/lucylow/Martha_Stewart/pulls)
   [![License](https://img.shields.io/bower/l/bootstrap)]()
 
 </div>
