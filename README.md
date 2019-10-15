@@ -1,10 +1,11 @@
 # Martha Stewart
-**Algorithmic Trading** also known as Automated Trading, Black-Box Tarding, or Algo-Trading. Computer program follows algorithm of **pre-defined set of instructions to place trades**. Theoretically, **generates profits at a speed and frequency that is impossible for a human trader.** 
+**Algorithmic Trading** also known as Automated Trading, Black-Box Tarding, or Algo-Trading.
 
 ---
 
 ## Motivation 
 * Algorithms are important in trading
+* Computer program follows algorithm of **pre-defined set of instructions to place trades**. Will generates profits at a speed and frequency that is impossible for a human trader.
 * Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important**: [Ex. Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
 
 
