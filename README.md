@@ -5,7 +5,8 @@ Artifical Intelligence Algorithmic Finance Trading
 
 ## Motivation 
 * Algorithms are important in trading
-* Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important** [Black-Scholes Equation <3](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation)
+* Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important** 
+* [Black-Scholes Equation <3](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation)
 
 ---
 
