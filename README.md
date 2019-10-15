@@ -5,7 +5,7 @@ Artifical Intelligence Algorithmic Finance Trading
 
 ## Motivation 
 * Algorithms are important in trading
-* Relates to **physic background** where in the finance, **time scales of nanoseconds/speed of light are important**
+* Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important**
 * Finance is the best real world application of math - [Black-Scholes Equation <3](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation)
 
 ---
@@ -13,7 +13,7 @@ Artifical Intelligence Algorithmic Finance Trading
 ## Finance World
 Algorithmic trading 
 
-* Finance Companies Two Sides 
+* Two types of "Finance"
   1) Quantitaitve Finance (ATQs)
     * determine prices, manage risk, and identify profitable opportunities
     * Create financial models (ex. interest rate models) and model validation
