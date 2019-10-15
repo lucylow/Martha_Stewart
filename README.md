@@ -6,7 +6,7 @@ Artifical Intelligence Algorithmic Finance Trading
 ## Motivation 
 * Algorithms are important in trading
 * Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important** 
-* [Black-Scholes Equation <3](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation)
+* [Black-Scholes Equation](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation)
 
 ---
 
@@ -18,6 +18,9 @@ Algorithmic trading
     * Futures, options, numerical methods, Monte Carlo methods, finite difference methods, binomial model and delta-hedging 
     * Signal processing, game theory, gambling Kelly criterion, market microstructure, econometrics, and time series analysis)
     * **Stocastic calculus**
+      * Model systems that behave randomly using Itô and Malliavin calculus
+      * In Physics, modeling Brownian Motion, diffusion processes of particles subject to random forces
+      * In Finance, Asset prices assumed to follow stochastic differential equations.Ex. Black–Scholes model, prices follow geometric Brownian motion
 
 
 2) **Trading / Sales FLoor** 
