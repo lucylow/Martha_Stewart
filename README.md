@@ -5,7 +5,7 @@ Artifical Intelligence Algorithmic Trading in Finance
 
 ## Motivation 
 * Algorithms are important in trading
-* Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important**. [Ex. Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
+* Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important**: [Ex. Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
 
 ---
 
@@ -15,10 +15,9 @@ Artifical Intelligence Algorithmic Trading in Finance
     * Determine prices, manage risk, and identify profitable opportunities by creating financial models and model validation
     * Futures, options, numerical methods, Monte Carlo methods, finite difference methods, binomial model and delta-hedging 
     * Signal processing, game theory, gambling Kelly criterion, market microstructure, econometrics, and time series analysis)
-    * **Stocastic calculus**
-      * Model systems that behave randomly
+    * **Stocastic Calculus** to model systems that behave randomly
       * Modeling Brownian Motion, diffusion processes of particles subject to random forces in physics
-      * Asset prices assumed to follow stochastic differential equations.Ex. [Black-Scholes](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation) model, prices follow geometric Brownian motion
+      * Asset prices assumed to follow stochastic differential equations. Ex. [Black-Scholes Model](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation) where assett prices follow geometric Brownian motion
 
 
 2) **Trading / Sales FLoor** 
@@ -34,8 +33,8 @@ Artifical Intelligence Algorithmic Trading in Finance
 ## Algorithmic Trading
 
 * **Executing orders using automated trading instructions**: 
-   * Parameters so traders do not need to manually watch a stock and traders need to execute large orders in certain markets
-      * Time, price, and volume
+   * Parameters so traders do not need to manually watch a stock and can execute large orders
+      * Time, Price, and Volume
       * Send small slices of the order out to the market over time
 
 * **Popular Algorithm Examples**
