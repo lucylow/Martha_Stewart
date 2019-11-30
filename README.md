@@ -26,7 +26,7 @@
   * a good free source to explore algorithmic trading is Quantopian
   * Online platform for testing and developing algorithmic trading. Individuals can try and customize any existing algorithm or write a completely new one. The platform also offers built-in algorithmic trading software to be tested against market data.
 
-  ![role modelzzzzz](https://github.com/lucylow/Martha_Stewart/blob/master/martha-1960s-subway-102861907_sq.jpg)
+    ![role modelzzzzz](https://github.com/lucylow/Martha_Stewart/blob/master/martha-1960s-subway-102861907_sq.jpg)
 ---
 
 ## Benefits of Algorithmic Trading
