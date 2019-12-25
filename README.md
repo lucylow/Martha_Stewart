@@ -16,28 +16,35 @@
 
 ## Motivation 
 * Algorithms are important in trading
-   * Computer program follows **algorithm of pre-defined set of instructions to place trades**
+   * Computer follows **algorithm of pre-defined set of instructions to place trades**
    * Generates profits at a speed and frequency that is impossible for a human trader
    * **Makes trading more systematic** by ruling out human emotions
-* Relates to **physic background** where in the finance world, **time scales of nanoseconds/speed of light are important**:
-  * In high frequency trading, one-hundredth of a microsecond is enough time for most HFT trade decisions and executions
+* Physics background
+  * In finance world, **time scales of nanoseconds/speed of light are important**:
+  * Example, in high frequency trading, one-hundredth of a microsecond is enough time for most HFT trade decisions and executions
   * [Ex. Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
-* Build your own trading software allows full flexibility for Configurability and Customization
-  * a good free source to explore algorithmic trading is Quantopian
-  * Online platform for testing and developing algorithmic trading. Individuals can try and customize any existing algorithm or write a completely new one. The platform also offers built-in algorithmic trading software to be tested against market data.
+* Building my own algo trading software 
+  * Allows flexibility for configurability and customization
+  * Ex: Quantopian
 
 ---
 
 ## Benefits of Algorithmic Trading
 
-* Trades are executed at the best possible prices
-* Trade order placement is instant and accurate (there is a high chance of execution at the desired levels)
-* Trades are timed correctly and instantly to avoid significant price changes
-* Reduced transaction costs
-* Simultaneous automated checks on multiple market conditions
-* Reduced risk of manual errors when placing trades
-* Algo-trading can be backtested using available historical and real-time data to see if it is a viable trading strategy
-* Reduced possibility of mistakes by human traders based on emotional and psychological factors
+* **Money**
+  * Trades are executed at the best possible prices
+  * Reduced transaction costs
+  * HFT is a way for traders to capitalize on infinitesimal price discrepancies that might exist only for a minuscule period.
+* **Accuracy of trade orders**
+  * Trade order placement is instant and accurate (high chance of execution at the desired levels)
+  * Trades are timed correctly and instantly to avoid significant price changes
+  * Simultaneous automated checks on multiple market conditions
+  * Algo-trading can be backtested using available historical and real-time data to see if it is a viable trading strategy
+  * Capitalize on placing a large number of orders at rapid speeds across multiple markets and multiple decision parameters based on preprogrammed instructions
+* **Reduced possibility of mistakes** 
+  * Reduced risk of manual errors when placing trades
+  * Human traders based on emotional and psychological factors
+
 
 ---
 
@@ -49,7 +56,7 @@
     * Signal processing, game theory, gambling Kelly criterion, market microstructure, econometrics, and time series analysis)
     * **Stocastic Calculus** to model systems that behave randomly
       * Modeling Brownian Motion, diffusion processes of particles subject to random forces in physics
-      * Asset prices assumed to follow stochastic differential equations. Ex. [Black-Scholes Model](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation) where assett prices follow geometric Brownian motion
+      * Asset prices assumed to follow stochastic differential equations. Ex. [Black-Scholes Model](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation) where asset prices follow geometric Brownian motion <3
 
 
 2) **Trading / Sales Floor** 
@@ -65,9 +72,11 @@
 ## Algorithmic Trading
 
 * **Executing orders using automated trading instructions**: 
-   * Parameters so traders do not need to manually watch a stock and can execute large orders
+   * Parameters so traders do not need to manually watch a stock
       * Time, Price, and Volume
+   * Parameters so traders can execute large orders
       * Send small slices of the order out to the market over time
+
 
 * **Popular Algorithm Examples**
    * Percentage of Volume
@@ -84,7 +93,7 @@
    * Hedge funds (Renaissance Technologies and Two Sigma)
 ---
 
-## Basic Numerical Methods 
+## Numerical Methods used in Finance
 
 * **Finite difference method**  
   * Solve partial differential equations
@@ -102,35 +111,31 @@
 
 ---
 
-## Algorithmic Trading and High Frequency Trading (HFT)
+## High Frequency Trading (HFT) 
 
-**Define High Frequency Trading (HFT)**
-   * High turnover and High order-to-trade ratios
-   * Resulted in dramatic change of finance market microstructure (the way liquidity is provided)
+**Define High Frequency Trading (HFT) and How it works**
+* Goal of HFT is to benefit from bid-ask spreads
+  * If they sense an opportunity, HFT algorithms then try to capitalize on large pending orders by adjusting prices to fill them and make profits.
+  * It adds liquidity to the markets and eliminates small bid-ask spreads
+  * High turnover and High order-to-trade ratios
+* HFT algorithms typically involve two-sided order placements 
+   * Buy-low
+   * Sell-high
+* Two types of HFT
+  1) Market makers to set price
+  2) **Statistical arbitrage to guess price (focus on this one)**
 
-**Two Types of HFT:**
-  1) Market makers, set price
-  2) **Statistical arbitrage, guess price** 
-   * Three examples below
+
+ 
+**Criticisms of HFT**
+* Allows institutional players to gain an upper hand in trading because they are able to trade in large blocks through the use of algorithms resulting in dramatic change of finance market microstructure)  
+* By paying an additional exchange fee, trading firms get access to see pending orders a split-second before the rest of the market does
+* Liquidity produced by this type of trading is momentary as it disappears within seconds, making it impossible for traders to take advantage of it
 
 
 ---
 
 ## HFT Examples
-Strategies to use computers to make decisions electronically, before human traders are capable of processing the information. Capitalize on placing a large number of orders at rapid speeds across multiple markets and multiple decision parameters based on preprogrammed instructions. 
-
-Algorithms essentially work as middlemen between buyers and sellers, with HFT and Ultra HFT being a way for traders to capitalize on infinitesimal price discrepancies that might exist only for a minuscule period.
-
-HFT algorithms typically involve two-sided order placements (buy-low and sell-high) in an attempt to benefit from bid-ask spreads. HFT algorithms also try to “sense” any pending large-size orders by sending multiple small-sized orders and analyzing the patterns and time taken in trade execution. If they sense an opportunity, HFT algorithms then try to capitalize on large pending orders by adjusting prices to fill them and make profits.
-
-
-Also, Ultra HFT is a further specialized stream of HFT. By paying an additional exchange fee, trading firms get access to see pending orders a split-second before the rest of the market does.
-
-HFT is complex algorithmic trading in which large numbers of orders are executed within seconds.
-It adds liquidity to the markets and eliminates small bid-ask spreads.
-There are two primary criticisms of HFT. The first one is that it allows institutional players to gain an upper hand in trading because they are able to trade in large blocks through the use of algorithms. The second criticism against HFT is that the liquidity produced by this type of trading is momentary. It disappears within seconds, making it impossible for traders to take advantage of it.
-
-
 
   * **Ex.1 Pair Trading Algorithms**
     * Time series of one stock
@@ -145,10 +150,12 @@ There are two primary criticisms of HFT. The first one is that it allows institu
   * **Ex.3 Predator-Prey Algorithms** 
     * Ping and sharks
     * Reverse engineer stealth algorithms, **attack and win**
-    * Put noise out there to confuse the other algorithms
+    * Put noise out there to confuse other algorithms
 
 * **Ultra-Fast Black Swan**
   * When you have species that all look the same in the ecosystem, the system crashes
+  
+
 
 ---
 
@@ -159,46 +166,38 @@ There are two primary criticisms of HFT. The first one is that it allows institu
 * **Python Programming Language**
   * Beautiful
   * Statistical computing language
+  * C++, Java, and Python are common among trader community
   
 * **Pandas Library**
   * Data analysis library 
   * Created by Wes McKinney working at hedgefund AQR Capital Management
   
-* **Financial Data**
+* Other Fun Tools: Numpy, Scipy, and Matplotlib
+* Lame alternatives: Excel or R
+
+---
+
+## Financial data for Algorithmic Trading
+
+* Accessing market data
+  * Bloomberg data terminal
+  * Historical and/or real-time data availability, to backtest their identified strategies
+  * Network connectivity and access to trading platforms to place orders.
+  * Technical and quantitative analysis tools for trading (like Bollinger bands, charts, etc.)
+  * Real-time data feeds required to avoid microsecond delays that may impact profit
+
+* Financial Data
   * Spreedsheet datasets with rows and columns
   * Finance problems more about manipulating data than math
   * Quality data is far more important than fancy analysis
   
-* Other Tools: Numpy, Scipy, and Matplotlib
-* Alternatives: Excel or R
 
----
+----
 
-## Technical Requirements for Algorithmic Trading
-
-* Acessing market data
-  * Bloomberg data terminal
-  * Technical and quantitative analysis tools for trading (like Bollinger bands, charts, etc.)
- 
-* Programming languages
-  * Perl, C++, Java, Python are the common ones among the trader community
-* Historical and/or real-time data availability, to backtest their identified strategies
-* Automated access to brokerage/trading accounts usually through Direct Market Access
-  * 
-
-High-speed computers, which need regular and costly hardware upgrades;
-
-Real-time data feeds, which are required to avoid even a microsecond's delay that may impact profits; and
-
-
-Implementing the algorithm using a computer program is the final component of algorithmic trading, accompanied by backtesting (trying out the algorithm on historical periods of past stock-market performance to see if using it would have been profitable). The challenge is to transform the identified strategy into an integrated computerized process that has access to a trading account for placing orders. The following are the requirements for algorithmic trading:
-
- Computer-programming knowledge to program the required trading strategy, hired programmers, or pre-made trading software.
- Network connectivity and access to trading platforms to place orders.
- Access to market data feeds that will be monitored by the algorithm for opportunities to place orders.
- The ability and infrastructure to backtest the system once it is built before it goes live on real markets.
- Available historical data for backtesting depending on the complexity of rules implemented in the algorithm.
-
+## Backtesting the Trading Platform 
+* Final component of algorithmic trading, backtest the system before it goes live on real markets
+* Test on historical periods of past stock-market performance to see if potentially profitable
+* Available historical data for backtesting depending on the complexity of rules implemented in the algorithm
 
 
 ---
@@ -212,7 +211,7 @@ Implementing the algorithm using a computer program is the final component of al
 * Build stock trading software system that uses current daily data
 * Build software to access **live equity data**, assess it, and **make trading decisions**
 
-* Optomizing portfios
+* Optomizing portfolios
 * Computing at Hedgefunds. So you want to become a Hedgefund manager?
 
 
