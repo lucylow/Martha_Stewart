@@ -23,6 +23,7 @@
   * In finance world, **time scales of nanoseconds/speed of light are important**: 
   * Example, in high frequency trading, one-hundredth of a microsecond is enough time for most HFT trade decisions and executions and three milliseconds is an eternity to  high frequency trading firms
   * [Ex. Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
+  * Joke: The next innovation will be to dig a tunnel to avoid Earth's curvature to speed up trading times 
 * Building my own algo trading software 
   * Allows flexibility for configurability and customization
   * Ex: Quantopian
@@ -185,7 +186,7 @@
   * Network connectivity and access to trading platforms to place orders.
   * Technical and quantitative analysis tools for trading (like Bollinger bands, charts, etc.)
   * Real-time data feeds required to avoid microsecond delays that may impact profit
-
+  * F
 * Financial Data
   * Spreedsheet datasets with rows and columns
   * Finance problems more about manipulating data than math
@@ -196,6 +197,8 @@
 
 ## Computational Advantages of Discrete-Time Trading
 * Discrete vs Continue time trading 
+  * Continuous-time markets implicitly assume computers and communications are infinitely fast (false)
+  * Discrete time respects the limits of computers
 * Uniform-price  auctions  are  fast  to  compute
 * Gives algorithmic traders a discrete block of timebetween when they receive a message
 * Simplifies the market paper trail for reg-ulators  and  other  market  observers
@@ -243,4 +246,5 @@ For instance, with a 100 millisecond batch interval, the first 10 millisecondsof
 * What Hedge Funds Really Do by Romero and Balch
 * Python for Finance by Yves Hilpisch
 * Books by Sheldon Natenberg or Lawrence G. McMillan
+* https://faculty.chicagobooth.edu/eric.budish/research/HFT-FrequentBatchAuctions-Slides.pdf
 
