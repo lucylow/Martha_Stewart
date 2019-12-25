@@ -20,8 +20,8 @@
    * Generates profits at a speed and frequency that is impossible for a human trader
    * **Makes trading more systematic** by ruling out human emotions
 * Physics background
-  * In finance world, **time scales of nanoseconds/speed of light are important**:
-  * Example, in high frequency trading, one-hundredth of a microsecond is enough time for most HFT trade decisions and executions
+  * In finance world, **time scales of nanoseconds/speed of light are important**: 
+  * Example, in high frequency trading, one-hundredth of a microsecond is enough time for most HFT trade decisions and executions and three milliseconds is an eternity to  high frequency trading firms
   * [Ex. Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
 * Building my own algo trading software 
   * Allows flexibility for configurability and customization
@@ -125,14 +125,6 @@
   1) Market makers to set price
   2) **Statistical arbitrage to guess price (focus on this one)**
 
-
- 
-**Criticisms of HFT**
-* Allows institutional players to gain an upper hand in trading because they are able to trade in large blocks through the use of algorithms resulting in dramatic change of finance market microstructure)  
-* By paying an additional exchange fee, trading firms get access to see pending orders a split-second before the rest of the market does
-* Liquidity produced by this type of trading is momentary as it disappears within seconds, making it impossible for traders to take advantage of it
-
-
 ---
 
 ## HFT Examples
@@ -154,7 +146,15 @@
 
 * **Ultra-Fast Black Swan**
   * When you have species that all look the same in the ecosystem, the system crashes
-  
+ 
+
+---
+ 
+## Criticisms of HFT
+* Allows institutional players to gain an upper hand in trading because they are able to trade in large blocks through the use of algorithms resulting in dramatic change of finance market microstructure)  
+* By paying an additional exchange fee, trading firms get access to see pending orders a split-second before the rest of the market does
+* Potentially destabilizing for financial markets,making the market more vulnerable to extreme events such asthe Flash Crash
+* Liquidity produced by this type of trading is momentary as it disappears within seconds, making it impossible for traders to take advantage of it
 
 
 ---
@@ -191,6 +191,23 @@
   * Finance problems more about manipulating data than math
   * Quality data is far more important than fancy analysis
   
+----
+
+
+## Computational Advantages of Discrete-Time Trading
+* Discrete vs Continue time trading 
+* Uniform-price  auctions  are  fast  to  compute
+* Gives algorithmic traders a discrete block of timebetween when they receive a message
+* Simplifies the market paper trail for reg-ulators  and  other  market  observers
+  * Adjust for relativity
+  * Sequence of events depends on the location of the observe
+* Makes it technologically possible to dis-seminate  public  information  symmetrically
+
+Formally, the processing time of the uniform-price auction isOðnlognÞ,wherenis the number of orders. Sorting bids and asks to compute the demandand supply curve isOðnlognÞ(Cormen et al. 2009), and then walking down thedemand curve and up the supply curve to compute the market clearing price isO(n).We also ran some simple computational simulations of uniform-price auctions,using randomly generated bids and asks, on an ordinary laptop using C++. Wefound that a uniform-price auction with 250,000 orders—the rate of messages persecond during the flash crash according to a Nanex analysis (2011)—cleared inabout 10 milliseconds in this simple computational environment
+
+For instance, with a 100 millisecond batch interval, the first 10 millisecondsof each batch interval could be allocated to the exchange computers for computingand reporting outcomes from the previous batch interval.
+
+
 
 ----
 
