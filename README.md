@@ -1,7 +1,7 @@
 # Martha Stewart
 
 
-**Algorithmic Trading Software for High Frequency Trading (HFT)** (also known ask Automated Trading, Black-Box Trading, or Algo-Trading)
+**Quantitative Algorithmic Trading Software for High Frequency Trading (HFT)** (aka Automated Trading, Black-Box Trading, or Algo-Trading)
 
 <div>
   
@@ -15,10 +15,12 @@
 --------
 
 ## Motivation 
-* Algorithms are important in trading
+* Algorithms are important in high frequency trading
    * Computer follows **algorithm of pre-defined set of instructions to place trades**
+   * Involves buying and selling securities such as stocks at extremely high speeds where traders may hold the shares they buy for only a fraction of a second before selling them again.
    * Generates profits at a speed and frequency that is impossible for a human trader
    * **Makes trading more systematic** by ruling out human emotions
+   * High-frequency trading is responsible for 50–60% of all trading activity.
 * Physics background
   * In finance world, **time scales of nanoseconds/speed of light are important**: 
   * Example, in high frequency trading, one-hundredth of a microsecond is enough time for most HFT trade decisions and executions and three milliseconds is an eternity to  high frequency trading firms
@@ -139,6 +141,8 @@
   * **Ex.2 Moving Large Volume Stocks** 
     * Break up large stock ($200million)
     * Iceberging 
+    *  Splits large orders into smaller sub-orders that arrive at the same time to all the exchanges through the use of intentional delays
+    * Prevents information leakage in the propagation of orders that high-speed traders can take advantage of
 
   * **Ex.3 Predator-Prey Algorithms** 
     * Ping and sharks
@@ -186,7 +190,7 @@
   * Network connectivity and access to trading platforms to place orders.
   * Technical and quantitative analysis tools for trading (like Bollinger bands, charts, etc.)
   * Real-time data feeds required to avoid microsecond delays that may impact profit
-  * F
+  
 * Financial Data
   * Spreedsheet datasets with rows and columns
   * Finance problems more about manipulating data than math
@@ -210,7 +214,18 @@ Formally, the processing time of the uniform-price auction isOðnlognÞ,wherenis
 
 For instance, with a 100 millisecond batch interval, the first 10 millisecondsof each batch interval could be allocated to the exchange computers for computingand reporting outcomes from the previous batch interval.
 
+--
 
+ ## How to execute an order 
+* execute a market order for stocks 
+* execute a limit order 
+
+---
+
+## Settings for automated trading
+* Timestamping in the milliseconds
+*
+*
 
 ----
 
@@ -238,12 +253,13 @@ For instance, with a 100 millisecond batch interval, the first 10 millisecondsof
 ---
 
 ## References 
+* Flash Boys: A Wall Street Revolt
+* https://www.quora.com/Why-is-high-frequency-trading-legal
 * Nassim Nichlas Taleb - AntiFragile Things That Gain From Disorder
 * Sean Gourley - High frequency trading and the new algorithmic ecosystem
 * Udacity course -  "Machine Learning for Trading” https://www.udacity.com/course/machine-learning-for-trading--ud501
 * Wes McKinney - Python for Data Analysis
 * HFT https://faculty.chicagobooth.edu/eric.budish/research/HFT-FrequentBatchAuctions.pdf
-* What Hedge Funds Really Do by Romero and Balch
 * Python for Finance by Yves Hilpisch
 * Books by Sheldon Natenberg or Lawrence G. McMillan
 * https://faculty.chicagobooth.edu/eric.budish/research/HFT-FrequentBatchAuctions-Slides.pdf
