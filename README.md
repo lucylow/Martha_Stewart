@@ -98,24 +98,7 @@
    * Pension funds
    * Mutual funds
    * Hedge funds (Renaissance Technologies and Two Sigma)
----
-
-## Numerical Methods used in Finance
-
-* **Finite difference method**  
-  * Solve partial differential equations
-* **Monte Carlo method** 
-  * Solve partial differential equations as well 
-  * Monte Carlo simulation common in risk management
-* **Ordinary least squares** 
-  * Estimate parameters in statistical regression analysis
-* **Spline interpolation** 
-  * Interpolate values from spot and forward interest rates curves, and volatility smiles
-* **Bisection, Newton, and Secant methods** 
-  * Find the roots, maxima and minima of functions 
-  * Ex. Internal rate of return
-
-
+   
 ---
 
 ## High Frequency Trading (HFT) 
