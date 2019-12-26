@@ -1,0 +1,27 @@
+{
+  "name": "Martha_Stewart",
+  "version": "1.0.0",
+  "description": "Quantitative algorithms for High Frequency Trading (HFT) suitable for admin panels.",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": "8.11.3"
+  },
+  "devDependencies": {
+    "eslint": "5.0.0",
+    "eslint-config-google": "0.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucylow/Martha_Stewart"
+  },
+  "keywords": [
+    "finance",
+    "high frequency trading"
+  ],
+  "author": "lucylow",
+  "contributors": [
+  ],
+  "license": "MIT"
+}
