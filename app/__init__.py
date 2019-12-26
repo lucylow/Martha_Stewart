@@ -41,7 +41,7 @@ def configure_logs(app):
         logger.addHandler(StreamHandler())
     except:
         pass
-
+  
 def apply_themes(app):
     """
     Add support for themes.
