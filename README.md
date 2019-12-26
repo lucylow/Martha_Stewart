@@ -12,6 +12,10 @@
 
 </div>
 
+![dashboard](https://github.com/lucylow/Martha_Stewart/blob/master/martha.gif)
+
+
+
 --------
 
 ## Motivation 
