@@ -36,7 +36,7 @@ class ProductionConfig(Config):
     SESSION_COOKIE_HTTPONLY = True
     REMEMBER_COOKIE_HTTPONLY = True
     REMEMBER_COOKIE_DURATION = 3600
-
+ 
     # PostgreSQL database
     SQLALCHEMY_DATABASE_URI = 'postgresql://{}:{}@{}:{}/{}'.format(
         environ.get('APPSEED_DATABASE_USER', 'appseed'),
