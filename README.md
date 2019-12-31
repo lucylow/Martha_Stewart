@@ -22,35 +22,26 @@
 * Algorithms are important in high frequency trading
    * Computer follows **algorithm of pre-defined set of instructions to place trades**
    * Involves buying and selling securities such as stocks at extremely high speeds where traders may hold the shares they buy for only a fraction of a second before selling them again.
-   * Generates profits at a speed and frequency that is impossible for a human trader
-   * **Makes trading more systematic** by ruling out human emotions
-   * High-frequency trading is responsible for 50–60% of all trading activity.
+   * Generates profits at a speed and frequency that is impossible for a human trader by **making trading more systematic** by ruling out human emotions
 * Physics background
   * In finance world, **time scales of nanoseconds/speed of light are important**: 
-  * Example, in high frequency trading, one-hundredth of a microsecond is enough time for most HFT trade decisions and executions and three milliseconds is an eternity to  high frequency trading firms
+  * Ex. one-hundredth of a microsecond is enough time for most HFT trade decisions and executions
   * [Ex. Goldman Sachs is spending $100 million to shave milliseconds off stock trades](https://www.cnbc.com/2019/08/01/goldman-spending-100-million-to-shave-milliseconds-off-stock-trades.html)
   * Joke: The next innovation will be to dig a tunnel to avoid Earth's curvature to speed up trading times 
-* Building my own algo trading software 
+* Building your own algo trading software 
   * Allows flexibility for configurability and customization
   * Ex: Quantopian
 
 ---
 
-## Benefits of Algorithmic Trading
+## Martha Stewart
 
-* **Money**
-  * Trades are executed at the best possible prices
-  * Reduced transaction costs
-  * HFT is a way for traders to capitalize on infinitesimal price discrepancies that might exist only for a minuscule period.
-* **Accuracy of trade orders**
-  * Trade order placement is instant and accurate (high chance of execution at the desired levels)
-  * Trades are timed correctly and instantly to avoid significant price changes
-  * Simultaneous automated checks on multiple market conditions
-  * Algo-trading can be backtested using available historical and real-time data to see if it is a viable trading strategy
-  * Capitalize on placing a large number of orders at rapid speeds across multiple markets and multiple decision parameters based on preprogrammed instructions
-* **Reduced possibility of mistakes** 
-  * Reduced risk of manual errors when placing trades
-  * Human traders based on emotional and psychological factors
+Martha Stewart's goal is to capitalize on infinitesimal price discrepancies that exists for minuscule periods. Her goal is to execute trades at at the best possible prices to reduce transaction costs. 
+
+By taking advantage of high frequency trading (which accounts for 50–60% of all trading activity), trade order placements are timed correctly to avoid significant price changes on multiple market conditions, there will be simultaneous automated checks on multiple market conditions, and capitalize on placing large number of orders at rapid speeds across multiple markets and multiple decision parameters based on preprogrammed instructions
+
+Software reduces risk of manual errors when placing trades and trade orders made based on emotional and psychological factors made by human traders. Algo-trading can be backtested using available historical real-time data to test viable trading stratgies.
+
 
 
 ---
