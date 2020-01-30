@@ -69,7 +69,7 @@ Software **reduces risk of manual errors** when placing trades and trade orders 
 
 ## Algorithmic Trading
 
-* **Executing orders using automated trading instructions**
+* **Executing Orders using Automated Trading Instructions**
    * Parameters so traders do not need to manually watch a stock
       * Time, Price, and Volume
    * Parameters so traders can execute large orders
@@ -94,7 +94,7 @@ Software **reduces risk of manual errors** when placing trades and trade orders 
 
 ## High Frequency Trading (HFT) 
 
-**Define High Frequency Trading (HFT) and How it works**
+**Define High Frequency Trading (HFT) and How it Works**
 * Goal of HFT is to benefit from bid-ask spreads
   * If they sense an opportunity, HFT algorithms then try to capitalize on large pending orders by adjusting prices to fill them and make profits.
   * It adds liquidity to the markets and eliminates small bid-ask spreads
@@ -133,7 +133,7 @@ Software **reduces risk of manual errors** when placing trades and trade orders 
 
 ---
  
-## Criticisms of HFT
+## Criticisms of High Frequency Trading
 * Allows institutional players to gain an upper hand in trading because they are able to trade in large blocks through the use of algorithms resulting in dramatic change of finance market microstructure) by paying an additional exchange fee, trading firms get access to see pending orders a split-second before the rest of the market does
 * Potentially destabilizing for financial markets,making the market more vulnerable to extreme events such asthe Flash Crash
 * Liquidity produced by this type of trading is momentary as it disappears within seconds, making it impossible for traders to take advantage of it
@@ -159,7 +159,7 @@ Software **reduces risk of manual errors** when placing trades and trade orders 
 
 ---
 
-## Financial data for Algorithmic Trading
+## Financial Data for Algorithmic Trading
 
 * **Accessing Market Data**
   * Bloomberg data terminal
@@ -211,7 +211,7 @@ Software **reduces risk of manual errors** when placing trades and trade orders 
 
 ---
 
-## **Udacity course "Machine Learning for Trading” from Georgia Tech (CS 7646)**
+## **Udacity "Machine Learning for Trading” from Georgia Tech (CS 7646)**
 
 * Implementing **ML based trading strateies** from info gathering to market orders
 * Focus on how to apply probalistic approaches to trading decisions
