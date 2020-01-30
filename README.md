@@ -189,7 +189,7 @@ Software **reduces risk of manual errors** when placing trades and trade orders 
 * Ran some simple computational simulations of uniform-price auctions,using randomly generated bids and asks, on an ordinary laptop using C++. 
 * Ex. 100 millisecond batch interval, the first 10 milliseconds of each batch interval could be allocated to the exchange computers for computing and reporting outcomes from the previous batch interval
 
---
+-----
 
  ## How to Execute an Order 
 * Execute a market order for stocks 
