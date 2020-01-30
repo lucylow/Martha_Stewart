@@ -36,7 +36,7 @@
 
 ## Martha Stewart
 
-Martha Stewart's goal is to capitalize on infinitesimal price discrepancies that exists for minuscule periods. Her goal is to execute trades at at the best possible prices to reduce transaction costs. 
+Martha Stewart capitalizeS on infinitesimal price discrepancies that exists for minuscule periods. Her goal is to execute trades at at the best possible prices to reduce transaction costs. 
 
 By taking advantage of high frequency trading (which accounts for 50–60% of all trading activity), trade order placements are timed correctly to avoid significant price changes on multiple market conditions, there will be simultaneous automated checks on multiple market conditions, and capitalize on placing large number of orders at rapid speeds across multiple markets and multiple decision parameters based on preprogrammed instructions
 
