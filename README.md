@@ -1,7 +1,7 @@
 # Martha Stewart
 
 
-**Quantitative Algorithmic Trading Software for High Frequency Trading (HFT)** aka Automated Trading, Black-Box Trading, or Algo-Trading. Martha Stewart's goal is to execute trades at the best prices by capitalizing on infinitesimal price discrepancies.
+**Quantitative Algorithmic Trading Software for High Frequency Trading (HFT)** aka Automated Trading, Black-Box Trading, or Algo-Trading. Martha Stewart's goal is to execute trades at the best prices by capitalizing on infinitesimal price discrepancies by forecasting stock market closing prices.
 
 <div>
   
@@ -226,6 +226,7 @@ Software **reduces risk of manual errors** when placing trades and trade orders 
 ---
 
 ## References 
+* Markov Models applied to financial time series data to mimic dynamics of price trends in the stock markets using four latent states to forecast stock market closing price https://github.com/luisdamiano/gsoc17-hhmm
 * Flash Boys: A Wall Street Revolt
 * https://www.quora.com/Why-is-high-frequency-trading-legal
 * Nassim Nichlas Taleb - AntiFragile Things That Gain From Disorder
