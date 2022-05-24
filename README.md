@@ -1,4 +1,4 @@
-# Martha Stewart
+# Quantitative Algorithmic Trading Arbitrage Bot
 
 
 **Quantitative Algorithmic Trading Software for High Frequency Trading (HFT)** aka Automated Trading, Black-Box Trading, or Algo-Trading. Martha Stewart's goal is to execute trades at the best prices by capitalizing on infinitesimal price discrepancies by forecasting stock market closing prices.
