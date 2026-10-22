@@ -2,7 +2,7 @@ FROM python:3.6
 
 ENV FLASK_APP run.py
  
-COPY run.py gunicorn.py requirements-sqlite.txt config.py .env ./
+COPY run.py gunicorn.py requirements-sqlite.txt config.py ./
 COPY app app
 COPY migrations migrations
 

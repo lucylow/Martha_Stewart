@@ -4,7 +4,7 @@ License: MIT
 Copyright (c) 2019 - present AppSeed.us
 """
 
-from tests.test_base import check_pages, check_blueprints
+from testing.test_base import check_pages, check_blueprints
 
 @check_pages('/', '/home/index')
 def test_pages(base_client):

@@ -4,7 +4,7 @@ License: MIT
 Copyright (c) 2019 - present AppSeed.us
 """
 
-from tests.test_base import urls
+from testing.test_base import urls
 
 
 # this test uses selenium to check, for all pages of gentelella, that there

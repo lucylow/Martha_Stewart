@@ -238,3 +238,43 @@ Software **reduces risk of manual errors** when placing trades and trade orders 
 * Books by Sheldon Natenberg or Lawrence G. McMillan
 * https://faculty.chicagobooth.edu/eric.budish/research/HFT-FrequentBatchAuctions-Slides.pdf
 
+
+
+---
+
+## Martha Plus research and paper-trading layer
+
+This repository now includes an additive `martha_plus/` package for validated OHLCV data, strategy research, portfolio accounting, risk controls, simulated paper execution, SQLite/audit persistence, backtesting, and an optional operations API. It does not connect to a live broker and does not support live trading. Review [`docs/martha_plus/INTEGRATION.md`](docs/martha_plus/INTEGRATION.md), [`docs/martha_plus/RISK_AND_OPERATIONS.md`](docs/martha_plus/RISK_AND_OPERATIONS.md), and [`docs/martha_plus/BACKTESTING.md`](docs/martha_plus/BACKTESTING.md) before use.
+
+### Research package quick start
+
+The add-on requires Python 3.10 or newer and uses only the Python standard library for its core. From the repository root, run:
+
+```bash
+python -m martha_plus config-check --json
+python -m martha_plus demo --bars 500 --seed 7 --strategy momentum
+python -m martha_plus backtest --csv examples/sample_bars.csv --symbol DEMO --strategy momentum
+python -m pip install -r requirements-dev.txt
+python -m pytest -q tests
+```
+
+The bundled CSV is seeded synthetic data, not real market data. The legacy application container remains unchanged and currently specifies Python 3.6; it cannot run this add-on without a separately reviewed runtime upgrade. The research package can be run with a Python 3.10+ interpreter from the project root. Existing `config.py`, `requirements.txt`, Docker/Gunicorn, migrations, and Flask routes were intentionally preserved.
+
+
+### Advanced research and operations extension (v0.2.0)
+
+The `martha_plus.advanced` namespace adds point-in-time data contracts and causal feature pipelines; local feature storage and provenance; portfolio optimization, constraints, risk budgets, attribution, and rebalancing diagnostics; purged walk-forward and statistical validation; corporate-action/session/universe tools; market-data failover and quality monitoring; liquidity/capacity estimates; paper order-slicing schedules and execution-quality analysis; event replay, manual scheduling, alerts, incidents, readiness probes, experiment tracking, snapshots, and escaped report exports. It does not submit orders or enable live trading.
+
+This layer contributes **5,165 Python implementation lines** (104 page-equivalents at the 50-lines-per-page convention). It was updated in v0.2.1 with app compatibility fixes; the current combined v0.3.0 totals, including the new enterprise layer, are shown below. See [`docs/martha_plus/ADVANCED_EXTENSION.md`](docs/martha_plus/ADVANCED_EXTENSION.md) and [`docs/martha_plus/advanced/README.md`](docs/martha_plus/advanced/README.md) for module boundaries, examples, and limitations.
+
+
+### Legacy app setup fixes
+
+The legacy test helpers now import from `testing.test_base`, avoiding a name collision with the new research suite in `tests/`. The app factory uses a thread-safe `before_request` database initializer compatible with current Flask versions. For the legacy Python 3.6 SQLite container, `requirements-sqlite.txt` supplies pinned dependencies; the Dockerfile no longer copies secrets into the image. Before using Compose, copy `.env.example` to `.env` and replace `SECRET_KEY` with a unique random value. The `martha_plus` add-on itself still requires Python 3.10+ and is not enabled in the legacy Python 3.6 image.
+
+
+### Enterprise controls and portfolio operations (v0.3.0)
+
+The `martha_plus.enterprise` namespace adds 5,121 lines of framework-neutral research and paper-operations utilities: authorization and signed-request verification, order lifecycle/idempotency/outbox primitives, event-time streaming and point-in-time joins, governance, cash/tax-lot/FX analysis, risk-limit evaluation, scenario and benchmark diagnostics, portfolio replay, reconciliation, surveillance, and safe exports. These controls are opt-in and do not connect to a live broker or submit live orders. Their in-memory components are not distributed guarantees; see [`docs/martha_plus/ENTERPRISE_EXTENSION.md`](docs/martha_plus/ENTERPRISE_EXTENSION.md) and [`docs/martha_plus/enterprise/README.md`](docs/martha_plus/enterprise/README.md) for the boundaries.
+
+The full package and tests now contain **16,538 Python lines** (331 page-equivalents at 50 lines/page), including 5,121 new enterprise implementation lines. Install `requirements-dev.txt` and run `sh scripts/martha_plus/check.sh` to exercise unittest and pytest-style regression tests together.

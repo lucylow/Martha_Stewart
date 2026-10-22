@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Martha Stewart{% endblock %}</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='assets/img/apple-icon.png') }}">
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='assets/img/favicon.png') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/black-dashboard.min.css') }}">
+  {% block stylesheets %}{% endblock %}
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="{{ url_for('home_blueprint.index') }}">Martha Stewart</a>
+      <div class="navbar-nav ml-auto">
+        {% if current_user.is_authenticated %}<a class="nav-item nav-link" href="{{ url_for('base_blueprint.logout') }}">Sign out</a>{% else %}<a class="nav-item nav-link" href="{{ url_for('base_blueprint.login') }}">Sign in</a>{% endif %}
+      </div>
+    </nav>
+    <main class="container-fluid py-4">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for category, message in messages %}<div class="alert alert-{{ category }}" role="status">{{ message }}</div>{% endfor %}
+      {% endwith %}
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+  <script src="{{ url_for('static', filename='assets/js/core/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/core/popper.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/core/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/plugins/chartjs.min.js') }}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

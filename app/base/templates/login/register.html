@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create account · Martha Stewart</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/black-dashboard.min.css') }}">
+</head>
+<body class="login-page">
+  <main class="container py-5" style="max-width: 480px">
+    <section class="card">
+      <div class="card-header"><h1 class="card-title">Create account</h1><p class="text-muted">Access the research dashboard</p></div>
+      <div class="card-body">
+        {% if msg %}<div class="alert alert-info" role="status">{{ msg }}</div>{% endif %}
+        <form method="post" action="{{ url_for('base_blueprint.create_user') }}">
+          {{ form.hidden_tag() }}
+          <div class="form-group">{{ form.username.label(class_='form-label') }}{{ form.username(class_='form-control', autocomplete='username') }}</div>
+          <div class="form-group">{{ form.email.label(class_='form-label') }}{{ form.email(class_='form-control', autocomplete='email') }}</div>
+          <div class="form-group">{{ form.password.label(class_='form-label') }}{{ form.password(class_='form-control', autocomplete='new-password') }}</div>
+          <button class="btn btn-primary btn-block" type="submit" name="register" value="1">Create account</button>
+        </form>
+        <p class="mt-3 mb-0"><a href="{{ url_for('base_blueprint.login') }}">Back to sign in</a></p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

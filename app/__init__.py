@@ -10,6 +10,7 @@ from flask_sqlalchemy import SQLAlchemy
 from importlib import import_module
 from logging import basicConfig, DEBUG, getLogger, StreamHandler
 from os import path
+from threading import Lock
 
 db = SQLAlchemy()
 login_manager = LoginManager()
@@ -24,10 +25,16 @@ def register_blueprints(app):
         app.register_blueprint(module.blueprint)
 
 def configure_database(app):
+    database_lock = Lock()
 
-    @app.before_first_request
+    @app.before_request
     def initialize_database():
-        db.create_all()
+        if app.extensions.get('martha_database_initialized'):
+            return None
+        with database_lock:
+            if not app.extensions.get('martha_database_initialized'):
+                db.create_all()
+                app.extensions['martha_database_initialized'] = True
 
     @app.teardown_request
     def shutdown_session(exception=None):
