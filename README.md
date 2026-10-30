@@ -12,9 +12,7 @@
 
 </div>
 
-![dashboard](https://github.com/lucylow/Martha_Stewart/blob/master/martha.gif)
-
-
+![](https://github.com/lucylow/Martha_Stewart/blob/master/Martha%20Stewart%20Quantitative%20Finance%20Architecture.png?raw=true)
 
 --------
 
