@@ -28,8 +28,10 @@
 * **Building your own Algo Trading Software** 
   * Allows flexibility for configurability and customization
   * Ex: Quantopian
+ 
 
-![](https://github.com/lucylow/Martha_Stewart/blob/master/Martha%20Stewart%20Quantitative%20Finance%20Architecture.png?raw=true)
+
+![](https://github.com/lucylow/Martha_Stewart/blob/master/4b6bcecf-ae3e-46c6-b93a-53df542d1c1a.png?raw=true)
 
 
 ---
@@ -69,6 +71,9 @@ Software **reduces risk of manual errors** when placing trades and trade orders 
 ---
 
 ## Algorithmic Trading
+
+![](https://github.com/lucylow/Martha_Stewart/blob/master/Martha%20Stewart%20Quantitative%20Finance%20Architecture.png?raw=true)
+
 
 * **Executing Orders using Automated Trading Instructions**
    * Parameters so traders do not need to manually watch a stock
