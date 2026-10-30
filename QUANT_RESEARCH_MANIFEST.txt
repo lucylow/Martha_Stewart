@@ -1,0 +1,35 @@
+Martha_Stewart Advanced Quantitative Research Extension
+=====================================================
+
+Package namespace: martha_plus.quant_research
+Python modules: 78
+Python source lines (total): 5961
+Python source lines (nonblank): 5091
+Approximate pages at 50 nonblank lines/page: 101.82
+Regression test methods: 66
+Runtime dependencies: Python standard library only
+Minimum Python version: 3.10
+
+Major additions in this installment
+- Dynamic Conditional Correlation (DCC) with GARCH, EWMA and sample marginal models
+- Rolling one-step DCC correlation/covariance forecasts
+- GBM Monte Carlo European option pricing with antithetic paths
+- Arithmetic/geometric Asian and discretely monitored barrier option valuation
+- Heston stochastic-volatility Monte Carlo (full-truncation Euler)
+- Common-random-number finite-difference Greeks
+- Variance-swap option-strip strike approximation, forward variance and VRP tools
+- Existing quant research suite: econometrics, Bayesian estimation, factor/risk models,
+  portfolio construction, signal research, leakage-aware validation, volatility,
+  fixed-income and derivatives analytics
+
+Verification
+- `sh scripts/quant_research/check.sh` compiles, runs regression tests and demo
+- All 66 tests passed on the build environment
+- Synthetic demo completes successfully
+
+Limitations
+- Research/simulation only; no broker integration or live order routing
+- Synthetic example does not demonstrate profitability, alpha or market capacity
+- DCC search and Heston simulation are transparent research approximations
+- Discrete barrier monitoring does not guarantee continuous-monitoring accuracy
+- Option-strip variance depends on quote coverage, conventions and data quality

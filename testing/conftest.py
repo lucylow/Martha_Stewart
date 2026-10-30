@@ -5,16 +5,31 @@ Copyright (c) 2019 - present AppSeed.us
 """
 
 from config import config_dict
-from pytest import fixture
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from pytest import fixture, skip
 from threading import Thread
 from time import sleep
-from app import create_app, db
+
+try:
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
+except ImportError:  # Selenium is optional for the standard development test setup.
+    webdriver = None
+    Options = None
+    Service = None
+
+
+def _app_dependencies():
+    try:
+        from app import create_app, db
+    except ImportError as exc:
+        skip(f"Legacy app dependencies are unavailable: {exc.name}")
+    return create_app, db
 
 
 @fixture
 def base_client():
+    create_app, db = _app_dependencies()
     app = create_app(config_dict['Debug'])
     app_ctx = app.app_context()
     app_ctx.push()
@@ -25,6 +40,7 @@ def base_client():
 
 @fixture
 def user_client():
+    create_app, db = _app_dependencies()
     app = create_app(config_dict['Debug'])
     app_ctx = app.app_context()
     app_ctx.push()
@@ -41,6 +57,9 @@ def user_client():
 
 @fixture
 def selenium_client():
+    if webdriver is None:
+        skip("Selenium is not installed; browser tests are optional")
+    create_app, db = _app_dependencies()
     app = create_app(config_dict['Debug'], True)
     app_context = app.app_context()
     app_context.push()
@@ -53,9 +72,9 @@ def selenium_client():
     # the main thread: it must be disabled
     client = None
     try:
-        client = webdriver.Chrome('./tests/chromedriver', chrome_options=options)
+        client = webdriver.Chrome(service=Service('./tests/chromedriver'), options=options)
     except Exception:
-        pass
+        skip("Chrome WebDriver is unavailable; browser tests are optional")
     # if the client cannot start, we don't want to start a Thread as the
     # test execution would be stuck
     if client:

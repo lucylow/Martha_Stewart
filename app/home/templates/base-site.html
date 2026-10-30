@@ -3,21 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% block title %}Martha Stewart{% endblock %}</title>
+  <meta name="theme-color" content="#f5f7f4">
+  <title>{% block title %}Martha Stewart · Quant Research{% endblock %}</title>
   <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='assets/img/apple-icon.png') }}">
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='assets/img/favicon.png') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/black-dashboard.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/martha-research.css') }}">
   {% block stylesheets %}{% endblock %}
 </head>
 <body>
   <div class="wrapper">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="{{ url_for('home_blueprint.index') }}">Martha Stewart</a>
-      <div class="navbar-nav ml-auto">
-        {% if current_user.is_authenticated %}<a class="nav-item nav-link" href="{{ url_for('base_blueprint.logout') }}">Sign out</a>{% else %}<a class="nav-item nav-link" href="{{ url_for('base_blueprint.login') }}">Sign in</a>{% endif %}
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="site-brand" href="{{ url_for('home_blueprint.index') }}" aria-label="Martha Stewart Quant Research home">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span class="brand-copy"><span class="brand-name">Martha Stewart</span><span class="brand-edition">Quant research</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation menu"><span aria-hidden="true">☰</span><span class="nav-toggle-label">Menu</span></button>
+      <div class="site-nav-links" id="primary-nav">
+        <a href="{{ url_for('home_blueprint.index') }}#overview">Overview</a>
+        <a href="{{ url_for('home_blueprint.index') }}#performance" data-hide-mobile="true">Performance</a>
+        <a href="{{ url_for('home_blueprint.index') }}#research-library" data-hide-mobile="true">Research</a>
+        {% if current_user.is_authenticated %}
+          <a class="nav-signout" href="{{ url_for('base_blueprint.logout') }}">Sign out</a>
+        {% else %}
+          <a class="nav-signout" href="{{ url_for('base_blueprint.login') }}">Sign in</a>
+        {% endif %}
       </div>
     </nav>
-    <main class="container-fluid py-4">
+    <main class="site-main">
       {% with messages = get_flashed_messages(with_categories=true) %}
         {% for category, message in messages %}<div class="alert alert-{{ category }}" role="status">{{ message }}</div>{% endfor %}
       {% endwith %}

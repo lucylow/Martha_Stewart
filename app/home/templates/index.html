@@ -1,394 +1,133 @@
 {% extends "base-site.html" %}
 
-{% block title %} Login {% endblock %} 
-
-<!-- Specific Page CSS goes HERE  -->
-{% block stylesheets %}{% endblock stylesheets %}
+{% block title %}Research overview · Martha Stewart{% endblock %}
 
 {% block content %}
-
-    <div class="row">
-
-      <div class="col-12">
-        <div class="card card-chart">
-          <div class="card-header ">
-            <div class="row">
-              <div class="col-sm-6 text-left">
-                <h5 class="card-category">Total Shipments</h5>
-                <h2 class="card-title">Performance</h2>
-              </div>
-              <div class="col-sm-6">
-                <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
-                  <label class="btn btn-sm btn-primary btn-simple active" id="0">
-                    <input type="radio" name="options" checked>
-                    <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Accounts</span>
-                    <span class="d-block d-sm-none">
-                      <i class="tim-icons icon-single-02"></i>
-                    </span>
-                  </label>
-                  <label class="btn btn-sm btn-primary btn-simple" id="1">
-                    <input type="radio" class="d-none d-sm-none" name="options">
-                    <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Purchases</span>
-                    <span class="d-block d-sm-none">
-                      <i class="tim-icons icon-gift-2"></i>
-                    </span>
-                  </label>
-                  <label class="btn btn-sm btn-primary btn-simple" id="2">
-                    <input type="radio" class="d-none" name="options">
-                    <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Sessions</span>
-                    <span class="d-block d-sm-none">
-                      <i class="tim-icons icon-tap-02"></i>
-                    </span>
-                  </label>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <div class="chart-area">
-              <canvas id="chartBig1"></canvas>
-            </div>
-          </div>
+<a class="skip-link" href="#main-content">Skip to dashboard</a>
+<div class="research-shell" id="main-content">
+  <header class="page-heading" id="overview">
+    <div>
+      <p class="eyebrow">WORKSPACE <span aria-hidden="true">/</span> OVERVIEW</p>
+      <div class="heading-line">
+        <div>
+          <h1>Your research desk</h1>
+          <p class="heading-copy">A clear view of portfolio context, risk and recent research.</p>
         </div>
-      </div>
-
-    </div>
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="card card-chart">
-          <div class="card-header">
-            <h5 class="card-category">Total Shipments</h5>
-            <h3 class="card-title"><i class="tim-icons icon-bell-55 text-primary"></i> 763,215</h3>
-          </div>
-          <div class="card-body">
-            <div class="chart-area">
-              <canvas id="chartLinePurple"></canvas>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card card-chart">
-          <div class="card-header">
-            <h5 class="card-category">Daily Sales</h5>
-            <h3 class="card-title"><i class="tim-icons icon-delivery-fast text-info"></i> 3,500€</h3>
-          </div>
-          <div class="card-body">
-            <div class="chart-area">
-              <canvas id="CountryChart"></canvas>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card card-chart">
-          <div class="card-header">
-            <h5 class="card-category">Completed Tasks</h5>
-            <h3 class="card-title"><i class="tim-icons icon-send text-success"></i> 12,100K</h3>
-          </div>
-          <div class="card-body">
-            <div class="chart-area">
-              <canvas id="chartLineGreen"></canvas>
-            </div>
-          </div>
-        </div>
+        <span class="sample-pill"><span class="status-dot" aria-hidden="true"></span> Sample workspace</span>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-12">
-        <div class="card card-tasks">
-          <div class="card-header ">
-            <h6 class="title d-inline">Tasks(5)</h6>
-            <p class="card-category d-inline">today</p>
-            <div class="dropdown">
-              <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown">
-                <i class="tim-icons icon-settings-gear-63"></i>
-              </button>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#pablo">Action</a>
-                <a class="dropdown-item" href="#pablo">Another action</a>
-                <a class="dropdown-item" href="#pablo">Something else</a>
-              </div>
-            </div>
-          </div>
-          <div class="card-body ">
-            <div class="table-full-width table-responsive">
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <td>
-                      <div class="form-check">
-                        <label class="form-check-label">
-                          <input class="form-check-input" type="checkbox" value="">
-                          <span class="form-check-sign">
-                            <span class="check"></span>
-                          </span>
-                        </label>
-                      </div>
-                    </td>
-                    <td>
-                      <p class="title">Update the Documentation</p>
-                      <p class="text-muted">Dwuamish Head, Seattle, WA 8:47 AM</p>
-                    </td>
-                    <td class="td-actions text-right">
-                      <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
-                        <i class="tim-icons icon-pencil"></i>
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="form-check">
-                        <label class="form-check-label">
-                          <input class="form-check-input" type="checkbox" value="" checked="">
-                          <span class="form-check-sign">
-                            <span class="check"></span>
-                          </span>
-                        </label>
-                      </div>
-                    </td>
-                    <td>
-                      <p class="title">GDPR Compliance</p>
-                      <p class="text-muted">The GDPR is a regulation that requires businesses to protect the personal data and privacy of Europe citizens for transactions that occur within EU member states.</p>
-                    </td>
-                    <td class="td-actions text-right">
-                      <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
-                        <i class="tim-icons icon-pencil"></i>
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="form-check">
-                        <label class="form-check-label">
-                          <input class="form-check-input" type="checkbox" value="">
-                          <span class="form-check-sign">
-                            <span class="check"></span>
-                          </span>
-                        </label>
-                      </div>
-                    </td>
-                    <td>
-                      <p class="title">Solve the issues</p>
-                      <p class="text-muted">Fifty percent of all respondents said they would be more likely to shop at a company </p>
-                    </td>
-                    <td class="td-actions text-right">
-                      <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
-                        <i class="tim-icons icon-pencil"></i>
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="form-check">
-                        <label class="form-check-label">
-                          <input class="form-check-input" type="checkbox" value="">
-                          <span class="form-check-sign">
-                            <span class="check"></span>
-                          </span>
-                        </label>
-                      </div>
-                    </td>
-                    <td>
-                      <p class="title">Release v2.0.0</p>
-                      <p class="text-muted">Ra Ave SW, Seattle, WA 98116, SUA 11:19 AM</p>
-                    </td>
-                    <td class="td-actions text-right">
-                      <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
-                        <i class="tim-icons icon-pencil"></i>
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="form-check">
-                        <label class="form-check-label">
-                          <input class="form-check-input" type="checkbox" value="">
-                          <span class="form-check-sign">
-                            <span class="check"></span>
-                          </span>
-                        </label>
-                      </div>
-                    </td>
-                    <td>
-                      <p class="title">Export the processed files</p>
-                      <p class="text-muted">The report also shows that consumers will not easily forgive a company once a breach exposing their personal data occurs. </p>
-                    </td>
-                    <td class="td-actions text-right">
-                      <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
-                        <i class="tim-icons icon-pencil"></i>
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="form-check">
-                        <label class="form-check-label">
-                          <input class="form-check-input" type="checkbox" value="">
-                          <span class="form-check-sign">
-                            <span class="check"></span>
-                          </span>
-                        </label>
-                      </div>
-                    </td>
-                    <td>
-                      <p class="title">Arival at export process</p>
-                      <p class="text-muted">Capitol Hill, Seattle, WA 12:34 AM</p>
-                    </td>
-                    <td class="td-actions text-right">
-                      <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
-                        <i class="tim-icons icon-pencil"></i>
-                      </button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-12">
-        <div class="card ">
-          <div class="card-header">
-            <h4 class="card-title"> Simple Table</h4>
-          </div>
-          <div class="card-body">
-            <div class="table-responsive">
-              <table class="table tablesorter " id="">
-                <thead class=" text-primary">
-                  <tr>
-                    <th>
-                      Name
-                    </th>
-                    <th>
-                      Country
-                    </th>
-                    <th>
-                      City
-                    </th>
-                    <th class="text-center">
-                      Salary
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      Dakota Rice
-                    </td>
-                    <td>
-                      Niger
-                    </td>
-                    <td>
-                      Oud-Turnhout
-                    </td>
-                    <td class="text-center">
-                      $36,738
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Minerva Hooper
-                    </td>
-                    <td>
-                      Curaçao
-                    </td>
-                    <td>
-                      Sinaai-Waas
-                    </td>
-                    <td class="text-center">
-                      $23,789
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Sage Rodriguez
-                    </td>
-                    <td>
-                      Netherlands
-                    </td>
-                    <td>
-                      Baileux
-                    </td>
-                    <td class="text-center">
-                      $56,142
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Philip Chaney
-                    </td>
-                    <td>
-                      Korea, South
-                    </td>
-                    <td>
-                      Overland Park
-                    </td>
-                    <td class="text-center">
-                      $38,735
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Doris Greene
-                    </td>
-                    <td>
-                      Malawi
-                    </td>
-                    <td>
-                      Feldkirchen in Kärnten
-                    </td>
-                    <td class="text-center">
-                      $63,542
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Mason Porter
-                    </td>
-                    <td>
-                      Chile
-                    </td>
-                    <td>
-                      Gloucester
-                    </td>
-                    <td class="text-center">
-                      $78,615
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Jon Porter
-                    </td>
-                    <td>
-                      Portugal
-                    </td>
-                    <td>
-                      Gloucester
-                    </td>
-                    <td class="text-center">
-                      $98,615
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <a class="button-primary" href="#research-library">Explore research <span aria-hidden="true">→</span></a>
+  </header>
 
+  <section class="metrics-grid" aria-label="Illustrative portfolio metrics">
+    <article class="metric-card">
+      <div class="metric-top"><span class="metric-label">Portfolio value</span><span class="metric-mark" aria-hidden="true">$</span></div>
+      <p class="metric-value">$1,248,300</p>
+      <p class="metric-note"><span class="positive-value">+2.4%</span> <span>illustrative period return</span></p>
+    </article>
+    <article class="metric-card">
+      <div class="metric-top"><span class="metric-label">Annualized volatility</span><span class="metric-mark" aria-hidden="true">σ</span></div>
+      <p class="metric-value">12.4<span class="metric-unit">%</span></p>
+      <p class="metric-note">Sample estimate · daily returns</p>
+    </article>
+    <article class="metric-card">
+      <div class="metric-top"><span class="metric-label">Maximum drawdown</span><span class="metric-mark" aria-hidden="true">↘</span></div>
+      <p class="metric-value">−4.2<span class="metric-unit">%</span></p>
+      <p class="metric-note">Sample peak-to-trough</p>
+    </article>
+    <article class="metric-card">
+      <div class="metric-top"><span class="metric-label">Research signals</span><span class="metric-mark" aria-hidden="true">◎</span></div>
+      <p class="metric-value">08</p>
+      <p class="metric-note">Illustrative active studies</p>
+    </article>
+  </section>
+
+  <section class="dashboard-grid" aria-label="Portfolio and research overview">
+    <article class="panel performance-panel" id="performance">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">PERFORMANCE</p>
+          <h2>Portfolio path</h2>
+          <p class="panel-subtitle">Indexed return · illustrative synthetic series</p>
+        </div>
+        <div class="range-control" role="group" aria-label="Select chart period">
+          <button type="button" class="range-button" data-range="7D" aria-pressed="false">7D</button>
+          <button type="button" class="range-button is-active" data-range="30D" aria-pressed="true">30D</button>
+          <button type="button" class="range-button" data-range="90D" aria-pressed="false">90D</button>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="portfolio-chart" role="img" aria-label="Illustrative portfolio performance line chart"></canvas>
+        <p class="chart-fallback" id="chart-fallback">Illustrative portfolio performance chart. Sample index values: 100, 101.2, 100.7, 102.4, 103.1, 102.8, 104.2.</p>
+      </div>
+      <div class="chart-legend"><span class="legend-swatch" aria-hidden="true"></span> Sample portfolio <span class="legend-caption">For demonstration only</span></div>
+    </article>
+
+    <article class="panel risk-panel" id="risk">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">RISK PROFILE</p>
+          <h2>Exposure mix</h2>
+          <p class="panel-subtitle">Example allocation · not a recommendation</p>
+        </div>
+        <span class="panel-icon" aria-hidden="true">↗</span>
+      </div>
+      <div class="exposure-list">
+        <div class="exposure-row"><div class="exposure-meta"><span>Equity</span><span>52%</span></div><div class="exposure-track"><span class="exposure-fill fill-equity" style="width:52%"></span></div></div>
+        <div class="exposure-row"><div class="exposure-meta"><span>Fixed income</span><span>28%</span></div><div class="exposure-track"><span class="exposure-fill fill-bonds" style="width:28%"></span></div></div>
+        <div class="exposure-row"><div class="exposure-meta"><span>Alternatives</span><span>12%</span></div><div class="exposure-track"><span class="exposure-fill fill-alternatives" style="width:12%"></span></div></div>
+        <div class="exposure-row"><div class="exposure-meta"><span>Cash</span><span>8%</span></div><div class="exposure-track"><span class="exposure-fill fill-cash" style="width:8%"></span></div></div>
+      </div>
+      <div class="risk-note"><span class="risk-note-icon" aria-hidden="true">i</span><p>Sample weights are for interface demonstration only. No live holdings or market feed is connected.</p></div>
+    </article>
+  </section>
+
+  <section class="panel research-panel" id="research-library">
+    <div class="panel-heading research-heading">
+      <div>
+        <p class="eyebrow">RESEARCH LIBRARY</p>
+        <h2>Recent work</h2>
+        <p class="panel-subtitle">A sample of the analysis available in this workspace.</p>
+      </div>
+      <span class="sample-pill sample-pill-muted">Synthetic demo</span>
+    </div>
+    <div class="research-tools">
+      <label class="search-field" for="research-search"><span aria-hidden="true">⌕</span><input id="research-search" type="search" placeholder="Find a study…" autocomplete="off"></label>
+      <label class="filter-select-label" for="research-area">Area</label>
+      <select id="research-area" class="filter-select" aria-label="Filter studies by research area">
+        <option value="all">All areas</option><option value="portfolio">Portfolio</option><option value="risk">Risk</option><option value="execution">Execution</option>
+      </select>
+      <span class="research-count" id="research-count" role="status" aria-live="polite">Showing 3 sample studies</span>
+      <button class="export-button" type="button" id="export-research">Export visible CSV</button>
+      <span class="visually-hidden" id="export-status" role="status" aria-live="polite"></span>
+    </div>
+    <div class="table-scroll" role="region" aria-label="Recent research studies table" tabindex="0">
+      <table class="research-table">
+        <caption class="visually-hidden">Sample recent quantitative research runs and their statuses</caption>
+        <thead><tr><th scope="col">Study</th><th scope="col">Area</th><th scope="col">Updated</th><th scope="col">Status</th></tr></thead>
+        <tbody>
+          <tr data-area="portfolio"><td><span class="study-name">Factor allocation review</span><span class="study-detail">Cross-sectional ranking · 4 assets</span></td><td>Portfolio</td><td>Today · demo</td><td><span class="status-tag status-complete">Complete</span></td></tr>
+          <tr data-area="risk"><td><span class="study-name">Volatility regime check</span><span class="study-detail">Rolling estimates · synthetic series</span></td><td>Risk</td><td>Yesterday · demo</td><td><span class="status-tag status-review">In review</span></td></tr>
+          <tr data-area="execution"><td><span class="study-name">Execution cost replay</span><span class="study-detail">TWAP and queue assumptions</span></td><td>Execution</td><td>Oct 28 · demo</td><td><span class="status-tag status-complete">Complete</span></td></tr>
+          <tr id="research-empty" hidden><td colspan="4">No sample studies match those filters. Try another search or area.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="toolkit-section" aria-labelledby="toolkit-title">
+    <div class="toolkit-heading"><div><p class="eyebrow">TOOLKIT</p><h2 id="toolkit-title">Built for careful research</h2></div><p>Explore models as transparent building blocks—not black-box answers.</p></div>
+    <div class="toolkit-grid">
+      <article class="toolkit-card"><span class="toolkit-number">01</span><h3>Portfolio &amp; risk</h3><p>Allocation, drawdown, covariance and stress analysis.</p><a href="#risk" aria-label="View the illustrative risk profile">View risk profile <span aria-hidden="true">→</span></a></article>
+      <article class="toolkit-card"><span class="toolkit-number">02</span><h3>Execution research</h3><p>Order-book replay, queue position and schedule comparisons.</p><a href="#research-library" aria-label="View sample execution research">View sample research <span aria-hidden="true">→</span></a></article>
+      <article class="toolkit-card"><span class="toolkit-number">03</span><h3>Quant methods</h3><p>Time-series tools, derivatives analytics and validation diagnostics.</p><a href="#research-library" aria-label="View the sample research library">Browse studies <span aria-hidden="true">→</span></a></article>
+    </div>
+  </section>
+
+  <footer class="dashboard-footer"><span>MARTHA STEWART · QUANT RESEARCH</span><span>Research and paper simulation only · Sample figures are synthetic</span></footer>
+</div>
 {% endblock content %}
 
-<!-- Specific Page JS goes HERE  -->
-{% block javascripts %}
-
-  <script>
-    $(document).ready(function() {
-      // Javascript method's body can be found in assets/js/demos.js
-      demo.initDashboardPageCharts();
-
-    });
-  </script>
-
-{% endblock javascripts %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='assets/js/martha-research.js') }}" defer></script>
+{% endblock scripts %}
