@@ -12,7 +12,7 @@
 
 </div>
 
-![](https://github.com/lucylow/Martha_Stewart/blob/master/Martha%20Stewart%20Quantitative%20Finance%20Architecture.png?raw=true)
+![](https://github.com/lucylow/Martha_Stewart/blob/master/From%20Noise%20to%20Knowledge.png?raw=true)
 
 --------
 
@@ -28,6 +28,9 @@
 * **Building your own Algo Trading Software** 
   * Allows flexibility for configurability and customization
   * Ex: Quantopian
+
+![](https://github.com/lucylow/Martha_Stewart/blob/master/Martha%20Stewart%20Quantitative%20Finance%20Architecture.png?raw=true)
+
 
 ---
 
