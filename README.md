@@ -14,6 +14,8 @@
 
 ![](https://github.com/lucylow/Martha_Stewart/blob/master/From%20Noise%20to%20Knowledge.png?raw=true)
 
+![](https://github.com/lucylow/Martha_Stewart/blob/master/Screenshot_31-10-2026_164141_manus.im.jpeg?raw=true)
+
 --------
 
 ## Motivation 
